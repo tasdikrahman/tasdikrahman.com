@@ -8,7 +8,7 @@ share: true
 cover_image: '/content/images/2016/7/decorators.png'
 ---
 
-It's been sometime since I wrote some python, and ended doing a bit of testing for a couple of routines which I ended up implementing. This post is more about me just condensing those ideas for python and how to do it in python, but the ideas are also a carryover from my other testing experiences, while using other languages and how my ideas for testing have progressed over time comparing some testing which I had done in some projects some years back. You can find a couple of more posts under [https://tasdikrahman.me/blog/tag/testing/](https://tasdikrahman.me/blog/tag/testing/) where I have delved more into these topics.
+It's been sometime since I wrote some python, and ended doing a bit of testing for a couple of routines which I ended up implementing. This post is more about me just condensing those ideas for python and how to do it in python, but the ideas are also a carryover from my other testing experiences, while using other languages and how my ideas for testing have progressed over time comparing some testing which I had done in some projects some years back. You can find a couple of more posts under [https://www.tasdikrahman.com/blog/tag/testing/](https://www.tasdikrahman.com/blog/tag/testing/) where I have delved more into these topics.
 
 As always, I will for sure look at this post at some point and notice improvements as my thoughts on testing progress and mature.
 

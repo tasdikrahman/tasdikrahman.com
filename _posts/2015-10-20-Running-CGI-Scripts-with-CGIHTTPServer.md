@@ -15,7 +15,7 @@ CGI scripting is helpful when you want to generate content from the data residin
 
 In my previous article, I showed how to run CGI scripts in an `apache2` webserver. Here is the link, if you wanna take a look at it
 
->**[Running-CGI-Sripts-on-Apache2-Ubuntu](http://tasdikrahman.me/2015/09/30/Running-CGI-Sripts-on-Apache2-Ubuntu/)**
+>**[Running-CGI-Sripts-on-Apache2-Ubuntu](http://www.tasdikrahman.com/2015/09/30/Running-CGI-Sripts-on-Apache2-Ubuntu/)**
 
 ## CGIHTTPServer
 

@@ -63,7 +63,7 @@ ansible-bootstrap-server
     └── test.yml
 ```
 
-**If you want to understand how the files are organised. I have written about it in ["Organising tasks in roles using Ansible"](http://tasdikrahman.me/2017/03/19/Organising-tasks-in-roles-using-Ansible/)**
+**If you want to understand how the files are organised. I have written about it in ["Organising tasks in roles using Ansible"](http://www.tasdikrahman.com/2017/03/19/Organising-tasks-in-roles-using-Ansible/)**
 
 ## Writings tests
 

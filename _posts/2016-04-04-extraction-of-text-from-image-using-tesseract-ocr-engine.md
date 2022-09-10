@@ -14,7 +14,7 @@ We have been working on building a food recommendation system for some time and 
 
 We poured over at zomato's site looking for menu's and all we found was images in the name of menu's
 
-<center><img src="http://tasdikrahman.me/content/images/2016/4/menu_img.jpg"></center>
+<center><img src="http://www.tasdikrahman.com/content/images/2016/4/menu_img.jpg"></center>
 
 This is not what we wanted! 
 
@@ -67,13 +67,13 @@ Tell me if you can comprehend any of this
 
 This is supposed to be the text list of menu items extraced from this image
 
-<center><img src="http://tasdikrahman.me/content/images/2016/4/bad_img_ocr.jpg"></center>
+<center><img src="http://www.tasdikrahman.com/content/images/2016/4/bad_img_ocr.jpg"></center>
 
 Sucks right?
 
 But some results were turning out fine. Take for instance this image [(link)](https://github.com/foodoh/ocrd_menus/blob/master/menu_images/1947-fine-indian-cuisine-banashankari-listing/1947-fine-indian-cuisine-banashankari-listing_1.jpg)
 
-<center><img src="http://tasdikrahman.me/content/images/2016/4/good_img_ocr.jpg"></center>
+<center><img src="http://www.tasdikrahman.com/content/images/2016/4/good_img_ocr.jpg"></center>
 
 Result for this [(link)](https://github.com/foodoh/ocrd_menus/blob/master/tesseract_menu_data/first_600_all_menus/1947-fine-indian-cuisine-banashankari-listing.txt)
 
@@ -131,7 +131,7 @@ A simple `PIL` program for that
 
 This improved the accuracy to a certain extent. Here is a sample greyscaled image for you [(link)](https://github.com/foodoh/scraped_menu_items/blob/master/light_cleaned_images/100-ft-boutique-bar-restaurant-indiranagar-listing/100-ft-boutique-bar-restaurant-indiranagar-listing_1_cleaned.jpg)
 
-<center><img src="http://tasdikrahman.me/content/images/2016/4/greyscaled_img.jpg"></center>
+<center><img src="http://www.tasdikrahman.com/content/images/2016/4/greyscaled_img.jpg"></center>
 
 > Some of the cleaning scripts lie here [(https://github.com/foodoh/image_cleansing/)](https://github.com/foodoh/image_cleansing/)
 

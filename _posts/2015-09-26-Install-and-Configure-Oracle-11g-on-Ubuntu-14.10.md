@@ -13,7 +13,7 @@ Well as luck would have it, we were having our Database labs in `ORACLE 11g` as 
 
 I installed it on my system(after a lot of trials!) this way.
 
->[Next part of this article](http://tasdikrahman.me/2015/09/27/My-Ramblings-about-Oracle-11g/)
+>[Next part of this article](http://www.tasdikrahman.com/2015/09/27/My-Ramblings-about-Oracle-11g/)
 
 ## Pre-requisites:
 

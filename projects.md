@@ -261,7 +261,7 @@ The results are often just nonsense, but at times can be strangely poetic - the 
 
 > If his occulted guilt, Do not it selfe vnkennell in one speech, It is most retrograde to our desire And we beseech you, bend you to remaine Heere in the cheere and comfort of our eye, Our cheefest Courtier Cosin, and our whole Kingdome To be contracted in one brow of woe Yet so farre hath Discretion fought with Nature, That we with wisest sorrow thinke on him, Together with remembrance of our selues.
 
-- [Blog post going through it's making](http://tasdikrahman.me/2017/05/06/Making-of-trumporate-using-markovipy-generating-sentences-using-markov-chains-part-1/)
+- [Blog post going through it's making](http://www.tasdikrahman.com/2017/05/06/Making-of-trumporate-using-markovipy-generating-sentences-using-markov-chains-part-1/)
 
 <i class="fa fa-code fa-2x"></i>  `python`, `markov chains`
 
@@ -274,9 +274,9 @@ The results are often just nonsense, but at times can be strangely poetic - the 
 
 <iframe src="https://ghbtns.com/github-btn.html?user=tasdikrahman&repo=easyrbac&type=star&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=tasdikrahman&repo=easyrbac&type=watch&count=true&v=2" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=tasdikrahman&repo=easyrbac&type=fork&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe>
 
-[![Demo](http://tasdikrahman.me/content/images/2017/05/easyrbac.png)](https://github.com/tasdikrahman/easyrbac)
+[![Demo](http://www.tasdikrahman.com/content/images/2017/05/easyrbac.png)](https://github.com/tasdikrahman/easyrbac)
 
-> [Blog post](http://tasdikrahman.me/2017/06/01/Implementing-role-based-access-Control-easyrbac-python/) explaining how it works
+> [Blog post](http://www.tasdikrahman.com/2017/06/01/Implementing-role-based-access-Control-easyrbac-python/) explaining how it works
 
 Role based access control (RBAC0) implementation
 
@@ -361,7 +361,7 @@ As covered by
 
 A cross platform, GUI calculator.
 
-The making of this project was covered in a [blog post](http://tasdikrahman.me/2015/11/06/Building-a-calculator/) of mine if you are curious.
+The making of this project was covered in a [blog post](http://www.tasdikrahman.com/2015/11/06/Building-a-calculator/) of mine if you are curious.
 
 <i class="fa fa-code fa-2x"></i>  `python`, `tkinter`
 
@@ -379,7 +379,7 @@ The making of this project was covered in a [blog post](http://tasdikrahman.me/2
 
 An opiniated slack bot for [SRMSE's](http://srmsearchengine.in/) slack channel
 
-Related blog [post of mine](http://tasdikrahman.me/2016/06/25/Margo-An-opiniated-Python-based-slack-bot-for-SRM-Search-Engine/)
+Related blog [post of mine](http://www.tasdikrahman.com/2016/06/25/Margo-An-opiniated-Python-based-slack-bot-for-SRM-Search-Engine/)
 
 <i class="fa fa-code fa-2x"></i>  `python`, `slackclient`, `requests`
 

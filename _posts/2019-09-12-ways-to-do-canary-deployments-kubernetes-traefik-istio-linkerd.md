@@ -183,7 +183,7 @@ Bare bones canary on k8s
 Canary using traefik
 
 - [https://blog.containo.us/canary-releases-with-traefik-on-gke-at-holidaycheck-d3c0928f1e02?gi=c58435e35526](https://blog.containo.us/canary-releases-with-traefik-on-gke-at-holidaycheck-d3c0928f1e02?gi=c58435e35526)
-- [https://tasdikrahman.me/2018/10/25/canary-deployments-on-AWS-and-kubernetes-using-traefik/](https://tasdikrahman.me/2018/10/25/canary-deployments-on-AWS-and-kubernetes-using-traefik/)
+- [https://www.tasdikrahman.com/2018/10/25/canary-deployments-on-AWS-and-kubernetes-using-traefik/](https://www.tasdikrahman.com/2018/10/25/canary-deployments-on-AWS-and-kubernetes-using-traefik/)
 - [https://docs.traefik.io/user-guide/kubernetes/#traffic-splitting](https://docs.traefik.io/user-guide/kubernetes/#traffic-splitting)
 
 Canary using linkerd

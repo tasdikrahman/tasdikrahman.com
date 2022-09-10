@@ -8,7 +8,7 @@ share: true
 cover_image: '/content/images/2021/06/vesemir-revamp.jpg'
 ---
 
-This is a continuation of the [post](https://tasdikrahman.me/2021/06/10/vesemir-our-virtual-machine-deployment-service/), which details into the working of vesemir and how it goes about introducing changeset. Give it a read before continuing reading this, to allow you to gather more context on the what and the why.
+This is a continuation of the [post](https://www.tasdikrahman.com/2021/06/10/vesemir-our-virtual-machine-deployment-service/), which details into the working of vesemir and how it goes about introducing changeset. Give it a read before continuing reading this, to allow you to gather more context on the what and the why.
 
 While this post will focus more more on how we went on with revamping vesemir for increasing it's reliability, maintainability and modernizing it.
 
@@ -24,7 +24,7 @@ For starters, there were a couple of boxes(VM's) in which Vesemir was deployed, 
 
 Centralized logging was something which we needed to add. Devs would look inside the specific VM boxes of vesemir to see what was going on, otherwise when a deployment failed (a very huge source of time sink for devs in our team/Level 1 support folks).
 
-Monitoring was missing on the boxes, if and when CPU would spike (continuing to stay that way), we would not know about it and the deployments being processed would get slower and take more time. This would cause deployment failures, a bit of that is explained here in this [post](https://tasdikrahman.me/2021/06/06/bug-which-would-cause-some-deployments-to-get-triggered-again-and-again/), as the workers picking up deployment requests were having a finite time to process the deployment request.
+Monitoring was missing on the boxes, if and when CPU would spike (continuing to stay that way), we would not know about it and the deployments being processed would get slower and take more time. This would cause deployment failures, a bit of that is explained here in this [post](https://www.tasdikrahman.com/2021/06/06/bug-which-would-cause-some-deployments-to-get-triggered-again-and-again/), as the workers picking up deployment requests were having a finite time to process the deployment request.
 
 Integration testing for the changes before deploying them to the production set of vesemir VM's was very manual and haphazard, prone to manual errors. It involved, removing one of the vesemir boxes, from behind the HAproxy and then deploying the changes to this vesemir box, testing it all along, and if everything went well, doing the same for other boxes. Again a huge time sink.
 
@@ -113,5 +113,5 @@ Thanks for reading this piece. More on around normandy, our kubernetes deploymen
 ### Links
 
 - [https://www.gojek.io/blog/how-we-reduced-skyrocketing-cpu-usage](https://www.gojek.io/blog/how-we-reduced-skyrocketing-cpu-usage)
-- [https://tasdikrahman.me/2021/06/10/vesemir-our-virtual-machine-deployment-service/](https://tasdikrahman.me/2021/06/10/vesemir-our-virtual-machine-deployment-service/)
+- [https://www.tasdikrahman.com/2021/06/10/vesemir-our-virtual-machine-deployment-service/](https://www.tasdikrahman.com/2021/06/10/vesemir-our-virtual-machine-deployment-service/)
 - [Cover image credits](https://unsplash.com/photos/8lvHMctQMrU)

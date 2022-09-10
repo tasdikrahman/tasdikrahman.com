@@ -15,7 +15,7 @@ If you just want to test the waters in the CGI world, you might wanna test your 
 
 I have written an article on that. Here's the link.
 
-**[Running-CGI-Sripts-with-CGIHTTPServer](http://tasdikrahman.me/2015/10/20/Running-CGI-Sripts-with-CGIHTTPServer/)**
+**[Running-CGI-Sripts-with-CGIHTTPServer](http://www.tasdikrahman.com/2015/10/20/Running-CGI-Sripts-with-CGIHTTPServer/)**
 
 ## Configuring the Apache2 Web server to run CGI scripts
 

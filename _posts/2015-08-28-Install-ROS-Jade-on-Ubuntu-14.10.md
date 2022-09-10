@@ -13,7 +13,7 @@ Robot Operating System (ROS) is a collection of software frameworks for robot so
 
 So in layman terms, it just helps us build robot applications.
 
-> Previous post on ROS : [Configuring ROS - Jade on Ubuntu 14.10](http://tasdikrahman.me/2015/08/28/Configure-ROS-Jade-on-Ubuntu-14.10/)
+> Previous post on ROS : [Configuring ROS - Jade on Ubuntu 14.10](http://www.tasdikrahman.com/2015/08/28/Configure-ROS-Jade-on-Ubuntu-14.10/)
 
 ### Note : 
 
@@ -164,7 +164,7 @@ tasdik@Acer:~$ sudo apt-get install python-rosinstall
   
 ### Finally
 
-  The next step would be to [configure ROS, the steps of which can be found here](http://tasdikrahman.me/Configure-ROS-Jade-on-Ubuntu-14.10/)
+  The next step would be to [configure ROS, the steps of which can be found here](http://www.tasdikrahman.com/Configure-ROS-Jade-on-Ubuntu-14.10/)
 
   Now that you have installed ROS on your system, you can look forward to the 
   [ROS tutorials](http://wiki.ros.org/ROS/Tutorials)

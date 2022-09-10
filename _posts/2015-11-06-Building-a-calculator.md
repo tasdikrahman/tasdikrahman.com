@@ -33,7 +33,7 @@ Second was to decide which functions/operators should it have initially, upon wh
 The problem which took me the hardest to figure out was where we had to parse the input entered by the user. 
 Take this input as an example. 
 
-![calcBlog_1](https://raw.githubusercontent.com/tasdikrahman/tasdikrahman.me/master/images/calcBlog_1.jpg)
+![calcBlog_1](https://raw.githubusercontent.com/tasdikrahman/www.tasdikrahman.com/master/images/calcBlog_1.jpg)
 
 Now to get `80` as the first operand, one has to press `8` and then `8` again. Now you and I know that it is `80`. But how do you make the program understand that?
 

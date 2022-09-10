@@ -19,12 +19,12 @@ title: Resume
 
 
 
-<object data="//tasdikrahman.me/resume/tasdik_rahman_cv.pdf" type="application/pdf" width="100%" height="1000px">
+<object data="//www.tasdikrahman.com/resume/tasdik_rahman_cv.pdf" type="application/pdf" width="100%" height="1000px">
    <p>It appears you don't have a PDF plugin for this browser.
-     No biggie... you can <a href="http://tasdikrahman.me/resume/tasdik_rahman_cv.pdf">click here to
+     No biggie... you can <a href="http://www.tasdikrahman.com/resume/tasdik_rahman_cv.pdf">click here to
    download the PDF file.</a>
 
-   <center><a href="//tasdikrahman.me/resume/tasdik_rahman_cv.pdf" target="_blank"><i class="fa fa-file-pdf-o fa-2x" aria-hidden="true"></i>  My Resume</a></center>
+   <center><a href="//www.tasdikrahman.com/resume/tasdik_rahman_cv.pdf" target="_blank"><i class="fa fa-file-pdf-o fa-2x" aria-hidden="true"></i>  My Resume</a></center>
    </p>
 </object>
 

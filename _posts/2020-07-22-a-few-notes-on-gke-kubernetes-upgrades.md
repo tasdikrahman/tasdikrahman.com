@@ -138,7 +138,7 @@ Coming to the worker nodes. Well it depends.
 
 For stateless applications, the simplest thing to do is to increase the replicas to reflect the number of zones in which your nodes are present. But it need not to be necessary that scheduling of pods happen on each node across zone, kubernetes by default doesn't handle this but gives you the primitives to handle this case.
 
-If you want to distribute pods across zones, you can apply [podantiaffinity](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node/#inter-pod-affinity-and-anti-affinity) in the deployment spec for your service, with the topologyKey set to `http://failure-domain.beta.kubernetes.io/zone` for the scheduler to try scheduling it across zones. (You can read a more detailed post on scheduling rules which you can specify which I wrote sometime back [here](https://tasdikrahman.me/2020/05/06/specifying-scheduling-rules-for-pods-with-podaffinity-and-podantiaffinity-on-kubernetes/))
+If you want to distribute pods across zones, you can apply [podantiaffinity](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node/#inter-pod-affinity-and-anti-affinity) in the deployment spec for your service, with the topologyKey set to `http://failure-domain.beta.kubernetes.io/zone` for the scheduler to try scheduling it across zones. (You can read a more detailed post on scheduling rules which you can specify which I wrote sometime back [here](https://www.tasdikrahman.com/2020/05/06/specifying-scheduling-rules-for-pods-with-podaffinity-and-podantiaffinity-on-kubernetes/))
 
 Distribution across zones will make your service resilient to zonal failures, the reason we increase the replicas to greater than 1 is that, when the nodes get upgraded, the node gets drained and cordoned and the pods get bumped out from that node.
 
@@ -220,7 +220,7 @@ So if you really have the liberty, a managed solution is the way to go, take thi
 - [https://cloud.google.com/container-optimized-os/docs](https://cloud.google.com/container-optimized-os/docs)
 - [https://cloud.google.com/kubernetes-engine/docs/how-to/ip-masquerade-agent](https://cloud.google.com/kubernetes-engine/docs/how-to/ip-masquerade-agent)
 - [https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node/#inter-pod-affinity-and-anti-affinity](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node/#inter-pod-affinity-and-anti-affinity)
-- [https://tasdikrahman.me/2020/05/06/specifying-scheduling-rules-for-pods-with-podaffinity-and-podantiaffinity-on-kubernetes/](https://tasdikrahman.me/2020/05/06/specifying-scheduling-rules-for-pods-with-podaffinity-and-podantiaffinity-on-kubernetes/)
+- [https://www.tasdikrahman.com/2020/05/06/specifying-scheduling-rules-for-pods-with-podaffinity-and-podantiaffinity-on-kubernetes/](https://www.tasdikrahman.com/2020/05/06/specifying-scheduling-rules-for-pods-with-podaffinity-and-podantiaffinity-on-kubernetes/)
 - [https://kubernetes.io/docs/concepts/workloads/pods/disruptions/](https://kubernetes.io/docs/concepts/workloads/pods/disruptions/)
 - [https://kubernetes.io/docs/concepts/workloads/controllers/statefulset/](https://kubernetes.io/docs/concepts/workloads/controllers/statefulset/)
 - [https://kubernetes.io/docs/tasks/run-application/configure-pdb/](https://kubernetes.io/docs/tasks/run-application/configure-pdb/)

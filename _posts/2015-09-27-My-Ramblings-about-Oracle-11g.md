@@ -13,7 +13,7 @@ I have recently started using `Oracle 11g` and boy, doesn't it come with enough 
 
 Here are some of the things which I found would be useful to a first time user of `Oracle 11g`. I will try to update it when I find something useful.
 
->**If you haven't already installed `Oracle 11g`. [I wrote a small article on how to do so sometime back](http://tasdikrahman.me/2015/09/26/Install-and-Configure-Oracle-11g-on-Ubuntu-14.10/).**
+>**If you haven't already installed `Oracle 11g`. [I wrote a small article on how to do so sometime back](http://www.tasdikrahman.com/2015/09/26/Install-and-Configure-Oracle-11g-on-Ubuntu-14.10/).**
 
 ## Creating a new user : 
 

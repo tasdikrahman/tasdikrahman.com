@@ -8,7 +8,7 @@ share: true
 cover_image: '/content/images/2019/03/pillar-capitals-2135682_1920.jpg'
 ---
 
-> I have written about [F.I.R.S.T principles](https://tasdikrahman.me/2019/03/13/f-i-r-s-t-principles-of-testing/) of testing and [TDD as a school of thought](https://tasdikrahman.me/2019/02/08/why-should-I-follow-test-driven-development/)
+> I have written about [F.I.R.S.T principles](https://www.tasdikrahman.com/2019/03/13/f-i-r-s-t-principles-of-testing/) of testing and [TDD as a school of thought](https://www.tasdikrahman.com/2019/02/08/why-should-I-follow-test-driven-development/)
 
 Probably an extreme opinion, but this is how [Jeff Atwood](https://blog.codinghorror.com/i-pity-the-fool-who-doesnt-write-unit-tests/) puts it
 

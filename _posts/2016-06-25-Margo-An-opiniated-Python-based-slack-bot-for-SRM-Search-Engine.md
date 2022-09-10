@@ -63,8 +63,8 @@ So this weekend, me and some of my friends header over to [Bot builder workshop 
 
 All in all we had a really good time and met some really interesting guys.
 
-![Gupshup](https://raw.githubusercontent.com/tasdikrahman/tasdikrahman.me/gh-pages/content/images/2016/6/gupshup.jpg)
+![Gupshup](https://raw.githubusercontent.com/tasdikrahman/www.tasdikrahman.com/gh-pages/content/images/2016/6/gupshup.jpg)
 
-![innov8](https://raw.githubusercontent.com/tasdikrahman/tasdikrahman.me/gh-pages/content/images/2016/6/innova8.jpg)
+![innov8](https://raw.githubusercontent.com/tasdikrahman/www.tasdikrahman.com/gh-pages/content/images/2016/6/innova8.jpg)
 
 Cheers!

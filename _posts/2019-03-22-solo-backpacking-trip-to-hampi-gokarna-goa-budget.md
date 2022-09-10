@@ -270,7 +270,7 @@ I boarded a bus back to Bangalore, this one being an Airavat. As I felt I really
 
 Reaching home, was another level of satisfaction. I had finally completed the trip which was an impromptu one and I was very happy that I made it.
 
-I did something very similar a few years back when I did my [backpacking trip to Himachal](https://tasdikrahman.me/2016/12/22/solo-backpacking-trip-himachal-pradesh-shimla-manali-kullu-kasol-manikaran-bhuntar-triund-dharamshala-mcleodganj-budget-india/)while I was in college. And this felt very similar, just that this one was solo.
+I did something very similar a few years back when I did my [backpacking trip to Himachal](https://www.tasdikrahman.com/2016/12/22/solo-backpacking-trip-himachal-pradesh-shimla-manali-kullu-kasol-manikaran-bhuntar-triund-dharamshala-mcleodganj-budget-india/)while I was in college. And this felt very similar, just that this one was solo.
 
 7 days of backpacking across the southern edge of India had come to an end after completing close to 1400kms.
 

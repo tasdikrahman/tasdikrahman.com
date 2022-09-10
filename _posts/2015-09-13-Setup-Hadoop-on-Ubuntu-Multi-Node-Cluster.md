@@ -14,7 +14,7 @@ share: true
 
   I am using `nano` as the text editor for this article but you can use any other text-editor like `vi`, `sublime` or `atom` for doing the same
 
-  >I suggest you set up hadoop on single node before directly going for multi node as it will be easier to debug any errors. I have explained about [how to setup single node hadoop on ubuntu](http://tasdikrahman.me/2015/09/10/Install-Hadoop-1.0.3-Single-Node-on-Ubuntu-14.04.2/)
+  >I suggest you set up hadoop on single node before directly going for multi node as it will be easier to debug any errors. I have explained about [how to setup single node hadoop on ubuntu](http://www.tasdikrahman.com/2015/09/10/Install-Hadoop-1.0.3-Single-Node-on-Ubuntu-14.04.2/)
  
   **Note** : 
 
@@ -23,7 +23,7 @@ share: true
 
 ## Installation
 
-  >Install for the three node [using this tutuorial](http://tasdikrahman.me/2015/09/10/Install-Hadoop-1.0.3-Single-Node-on-Ubuntu-14.04.2/)
+  >Install for the three node [using this tutuorial](http://www.tasdikrahman.com/2015/09/10/Install-Hadoop-1.0.3-Single-Node-on-Ubuntu-14.04.2/)
 
 
 

@@ -8,7 +8,7 @@ share: true
 cover_image: '/content/images/2017/05/ansible-red-hat-blog-top.png'
 ---
 
-In my [previous post](http://tasdikrahman.me/2017/05/21/Installing-ovirt-4.1-on-centos-7-digitalocean-Google-Summer-of-Code-oVirt-2017/), I played around how to install `ovirt-engine` on a remote VM.
+In my [previous post](http://www.tasdikrahman.com/2017/05/21/Installing-ovirt-4.1-on-centos-7-digitalocean-Google-Summer-of-Code-oVirt-2017/), I played around how to install `ovirt-engine` on a remote VM.
 
 Turns out we can automate the whole process using ansible playbooks!
 

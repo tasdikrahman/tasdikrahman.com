@@ -76,7 +76,7 @@ $ curl --location --request GET 'localhost:3000/api/v1/domains' \
 {
     "data": [
         {
-            "fqdn": "tasdikrahman.me",
+            "fqdn": "www.tasdikrahman.com",
             "certificate_expiring": false,
             "certificate_issued_at": "2020-05-06T00:00:00.000Z",
             "certificate_expiring_at": "2022-04-14T12:00:00.000Z",
@@ -121,7 +121,7 @@ Then there is a [guide](https://www.robustperception.io/get-alerted-before-your-
 And the good old `openssl` command will always be there
 
 ```bash
-$ echo | openssl s_client -servername tasdikrahman.me -connect tasdikrahman.me:443 2>/dev/null | openssl x509 -noout -dates
+$ echo | openssl s_client -servername www.tasdikrahman.com -connect www.tasdikrahman.com:443 2>/dev/null | openssl x509 -noout -dates
 notBefore=Aug 19 13:59:14 2020 GMT
 notAfter=Nov 17 13:59:14 2020 GMT
 ```

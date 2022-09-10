@@ -12,7 +12,7 @@ cover_image: '/content/images/2017/05/web-server-security.jpg'
 
 Yesterday, I was having a great day!
 
-I had the daily goal of walking 6000 steps done. Thanks to my swanky new Mi band 1 (bade goodbye to my Sony SWR10). Wrote about installing `ovirt-engine` using an ansible-playbook in a post [yesterday](http://tasdikrahman.me/2017/05/24/Installing-ovirt-4.1-on-centos-7-using-ansible-linode-Google-Summer-of-Code-oVirt-2017/). My mom wasn't telling me for a change to get a haircut and suggested I start packing some proper clothes (she means washed and ironed) for my upcoming [trip to Taiwan](https://tw.pycon.org/2017/en-us/events/talk/342865744498786414/) which would be my first international trip. 
+I had the daily goal of walking 6000 steps done. Thanks to my swanky new Mi band 1 (bade goodbye to my Sony SWR10). Wrote about installing `ovirt-engine` using an ansible-playbook in a post [yesterday](http://www.tasdikrahman.com/2017/05/24/Installing-ovirt-4.1-on-centos-7-using-ansible-linode-Google-Summer-of-Code-oVirt-2017/). My mom wasn't telling me for a change to get a haircut and suggested I start packing some proper clothes (she means washed and ironed) for my upcoming [trip to Taiwan](https://tw.pycon.org/2017/en-us/events/talk/342865744498786414/) which would be my first international trip. 
 
 You need some getting used to, to the event of waking up to your significant others video call early in the morning. And I tell you if you had some bad sleep like me yesterday. You would hardly be in the mood for it. Sorry sunshine.
 

@@ -54,7 +54,7 @@ Another common thing, as pointed out by [Joy](https://twitter.com/hashfyre/) is 
 
 ## Being pedantic about coverage
 
-[Code coverage](https://en.wikipedia.org/wiki/Code_coverage) is not really a good metric to measure software and it's stability. While good (lesser bugs) software tend to have high coverage, it's not necessary that it's gonna solve all the problems you would have/encounter. I have written a bit more about this [here](https://tasdikrahman.me/2020/10/07/why-I-chose-to-do-tdd-for-my-side-project/) on why even close to 100% code coverage would not prevent your software to be bug free.
+[Code coverage](https://en.wikipedia.org/wiki/Code_coverage) is not really a good metric to measure software and it's stability. While good (lesser bugs) software tend to have high coverage, it's not necessary that it's gonna solve all the problems you would have/encounter. I have written a bit more about this [here](https://www.tasdikrahman.com/2020/10/07/why-I-chose-to-do-tdd-for-my-side-project/) on why even close to 100% code coverage would not prevent your software to be bug free.
 
 What I would like seeing is ways in which the changeset can be tested to gain more confidence of what is being introduced. The easier to test, the better as it would reduce the feedback cycle.
 

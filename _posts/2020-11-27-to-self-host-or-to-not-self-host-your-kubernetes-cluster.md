@@ -8,9 +8,9 @@ share: true
 cover_image: '/content/images/2019/04/k8s-image.png'
 ---
 
-A friend of mine asked this to me recently, about how was it to [self host](https://en.wikipedia.org/wiki/Self-hosting) [kubernetes](https://kubernetes.io) clusters. And I was cursing myself about why I did not write this post earlier (I mean, technically I have written about how we used to do self hosting [before](https://tasdikrahman.me/2019/04/04/self-hosting-highly-available-kubernetes-cluster-aws-google-cloud-azure/), but not the pros and cons of it), as this was not the first time I had been asked this question. So this post is dedicated to my friend and to others when they chance upon this question.
+A friend of mine asked this to me recently, about how was it to [self host](https://en.wikipedia.org/wiki/Self-hosting) [kubernetes](https://kubernetes.io) clusters. And I was cursing myself about why I did not write this post earlier (I mean, technically I have written about how we used to do self hosting [before](https://www.tasdikrahman.com/2019/04/04/self-hosting-highly-available-kubernetes-cluster-aws-google-cloud-azure/), but not the pros and cons of it), as this was not the first time I had been asked this question. So this post is dedicated to my friend and to others when they chance upon this question.
 
-Just for context, self host here does not only mean, [kubernetes inside kubernetes](https://tasdikrahman.me/2019/04/04/self-hosting-highly-available-kubernetes-cluster-aws-google-cloud-azure/), but in a broader sense, would mean, managing the control plane of the kubernetes cluster too, along with the worker nodes (which is the usual case these days with the cloud vendor k8s options). You would preferably be using solutions like [kops](https://github.com/kubernetes/kops), or [typhoon](https://github.com/poseidon/typhoon) here to self host your kubernetes clusters. But there are a bunch of really great tools out there these days apart from these two, which I personally like.
+Just for context, self host here does not only mean, [kubernetes inside kubernetes](https://www.tasdikrahman.com/2019/04/04/self-hosting-highly-available-kubernetes-cluster-aws-google-cloud-azure/), but in a broader sense, would mean, managing the control plane of the kubernetes cluster too, along with the worker nodes (which is the usual case these days with the cloud vendor k8s options). You would preferably be using solutions like [kops](https://github.com/kubernetes/kops), or [typhoon](https://github.com/poseidon/typhoon) here to self host your kubernetes clusters. But there are a bunch of really great tools out there these days apart from these two, which I personally like.
 
 I had to pry out this tweet thread which I wrote about sometime back and it's a good summary more or less.
 
@@ -18,9 +18,9 @@ I had to pry out this tweet thread which I wrote about sometime back and it's a 
 
 ### Don't self host unless you have a very good reason to
 
-The very obvious answer if you ask why, is because with all honesty, it's a huge engineering effort to even run and manage vendor managed kubernetes clusters, let alone self hosted ones. I have already written quite a lot, on a bunch of reasons, one particular problem, from which there's no running away away from, is kubernetes upgrades, which I have covered in detail [here](https://tasdikrahman.me/2020/07/22/a-few-notes-on-gke-kubernetes-upgrades/) on what entails in one such upgrade, for you to understand the complexity of things.
+The very obvious answer if you ask why, is because with all honesty, it's a huge engineering effort to even run and manage vendor managed kubernetes clusters, let alone self hosted ones. I have already written quite a lot, on a bunch of reasons, one particular problem, from which there's no running away away from, is kubernetes upgrades, which I have covered in detail [here](https://www.tasdikrahman.com/2020/07/22/a-few-notes-on-gke-kubernetes-upgrades/) on what entails in one such upgrade, for you to understand the complexity of things.
 
-And there are a bunch of things, which I have mentioned in this [post](https://tasdikrahman.me/2020/11/21/choosing-between-one-big-cluster-or-multiple-smaller-kubernetes-clusters/) on the complexities which entail with managing a kubernetes cluster, vendor managed or self-hosted alike and how effort multiplies as one goes into the direction of multiple clusters and different cluster sizes. If you have read the above two posts, you might just feel this post getting a bit repeated at this point, hence I will not delve into the exact details, as I have covered them in depth in the other two posts.
+And there are a bunch of things, which I have mentioned in this [post](https://www.tasdikrahman.com/2020/11/21/choosing-between-one-big-cluster-or-multiple-smaller-kubernetes-clusters/) on the complexities which entail with managing a kubernetes cluster, vendor managed or self-hosted alike and how effort multiplies as one goes into the direction of multiple clusters and different cluster sizes. If you have read the above two posts, you might just feel this post getting a bit repeated at this point, hence I will not delve into the exact details, as I have covered them in depth in the other two posts.
 
 ### But Tasdik, I need to customize my kubernetes installation, I will lose that power if I go ahead with a vendor
 
@@ -52,9 +52,9 @@ Coincidentally, my last post was also about the trade-offs in specific situation
 
 ### Links
 
-- [https://tasdikrahman.me/2020/07/22/a-few-notes-on-gke-kubernetes-upgrades/](https://tasdikrahman.me/2020/07/22/a-few-notes-on-gke-kubernetes-upgrades/)
-- [https://tasdikrahman.me/2019/04/04/self-hosting-highly-available-kubernetes-cluster-aws-google-cloud-azure/](https://tasdikrahman.me/2019/04/04/self-hosting-highly-available-kubernetes-cluster-aws-google-cloud-azure/)
-- [https://tasdikrahman.me/2020/11/21/choosing-between-one-big-cluster-or-multiple-smaller-kubernetes-clusters/](https://tasdikrahman.me/2020/11/21/choosing-between-one-big-cluster-or-multiple-smaller-kubernetes-clusters/)
+- [https://www.tasdikrahman.com/2020/07/22/a-few-notes-on-gke-kubernetes-upgrades/](https://www.tasdikrahman.com/2020/07/22/a-few-notes-on-gke-kubernetes-upgrades/)
+- [https://www.tasdikrahman.com/2019/04/04/self-hosting-highly-available-kubernetes-cluster-aws-google-cloud-azure/](https://www.tasdikrahman.com/2019/04/04/self-hosting-highly-available-kubernetes-cluster-aws-google-cloud-azure/)
+- [https://www.tasdikrahman.com/2020/11/21/choosing-between-one-big-cluster-or-multiple-smaller-kubernetes-clusters/](https://www.tasdikrahman.com/2020/11/21/choosing-between-one-big-cluster-or-multiple-smaller-kubernetes-clusters/)
 
 ### Credits
 

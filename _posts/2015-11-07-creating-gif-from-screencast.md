@@ -18,7 +18,7 @@ How about we create one?
 
 Well recently when I was building a Calculator app, I wanted a `gif` image to be there in the `README.md` so as to show the usage of the app.
 
->I wrote a [How hard can Building a calclator be right?](http://tasdikrahman.me/2015/11/06/Building-a-calculator/) for the same some time back.
+>I wrote a [How hard can Building a calclator be right?](http://www.tasdikrahman.com/2015/11/06/Building-a-calculator/) for the same some time back.
 
 Did some googling and found out `byzanz-record` as the tool perfect for me
 

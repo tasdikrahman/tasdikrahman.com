@@ -12,7 +12,7 @@ share: true
 
 If you have not installed ROS, I have written a short guide describing the process. It can be found here found here
 
-> [Install ROS - Jade on Ubuntu 14.10](https://tasdikrahman.me/2015/08/28/Install-ROS-Jade-on-Ubuntu-14.10/)
+> [Install ROS - Jade on Ubuntu 14.10](https://www.tasdikrahman.com/2015/08/28/Install-ROS-Jade-on-Ubuntu-14.10/)
 
 The first step is to check whether the environment variables for ROS are setup properly
 Do a 

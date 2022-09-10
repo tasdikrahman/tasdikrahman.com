@@ -12,7 +12,7 @@ cover_image: '/content/images/2014/11/theme-vs-style.png'
 
 So recently I was building a Calculator using `tkinter`. 
 
->I wrote a [blog post](http://tasdikrahman.me/2015/11/06/Building-a-calculator/) for the same some time back.
+>I wrote a [blog post](http://www.tasdikrahman.com/2015/11/06/Building-a-calculator/) for the same some time back.
 
 Now I thought, how awesome it would be if I could distribute it to my friends and let the use it. Problem was that some of them not being CS grads would not know head or tails about how to run it!
 

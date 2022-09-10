@@ -105,5 +105,5 @@ Another question which comes is, at the end it would be the functioning lines of
 
 As for [bhola](https://github.com/tasdikrahman/bhola), I feel I would definitely have more confidence and a faster feedback cycle when adding changes to it in future.
 
-If you liked this piece, I have written a few more under [#testing](https://tasdikrahman.me/blog/tag/testing) and [#tdd](https://tasdikrahman.me/blog/tag/tdd).
+If you liked this piece, I have written a few more under [#testing](https://www.tasdikrahman.com/blog/tag/testing) and [#tdd](https://www.tasdikrahman.com/blog/tag/tdd).
 

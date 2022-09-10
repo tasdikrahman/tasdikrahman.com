@@ -14,7 +14,7 @@ permalink:        pretty
 title:            Tasdik Rahman
 description:      'tail -f /var/log/life*'
 
-url:              https://tasdikrahman.me
+url:              https://www.tasdikrahman.com
 # url:              http://0.0.0.0:4000/
 baseurl:          /
 logo:             /content/images/dp.jpg

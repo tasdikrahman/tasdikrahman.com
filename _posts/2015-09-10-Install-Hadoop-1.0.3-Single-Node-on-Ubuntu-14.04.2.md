@@ -14,7 +14,7 @@ share: true
 
   I am using `nano` as the text editor for this article but you can use any other text-editor like `vi`, `sublime` or `atom` for doing the same
 
->Next article : [Install Hadoop Multi Node 1.0.3 on Ubuntu 14.04.2](http://tasdikrahman.me/2015/09/13/Setup-Hadoop-on-Ubuntu-Multi-Node-Cluster/)
+>Next article : [Install Hadoop Multi Node 1.0.3 on Ubuntu 14.04.2](http://www.tasdikrahman.com/2015/09/13/Setup-Hadoop-on-Ubuntu-Multi-Node-Cluster/)
 
 ## Installation
 

@@ -12,7 +12,7 @@ So it's quite some time since I wrote a thing or two about the things which I ha
 
 This month has been a roller coaster ride if you ask me. Many reasons to it. 
 
-Some being that I travelled to [PyCon Taiwan](http://tasdikrahman.me/2017/06/12/PyCon-Taiwan-2017-Taipei/) which marked my first international trip and also my first PyCon talk. Got my uni results. Fingers crossed but heck. I scored a perfect 10 in the last sem! The final version of [trumporate's](https://github.com/tasdikrahman/trumporate/) UI is almost done and me and Rituraj have to just put some final touches to (blogpost for the whole development process is pending. You can find the first [one here](http://tasdikrahman.me/2017/05/06/Making-of-trumporate-using-markovipy-generating-sentences-using-markov-chains-part-1/))
+Some being that I travelled to [PyCon Taiwan](http://www.tasdikrahman.com/2017/06/12/PyCon-Taiwan-2017-Taipei/) which marked my first international trip and also my first PyCon talk. Got my uni results. Fingers crossed but heck. I scored a perfect 10 in the last sem! The final version of [trumporate's](https://github.com/tasdikrahman/trumporate/) UI is almost done and me and Rituraj have to just put some final touches to (blogpost for the whole development process is pending. You can find the first [one here](http://www.tasdikrahman.com/2017/05/06/Making-of-trumporate-using-markovipy-generating-sentences-using-markov-chains-part-1/))
 
 As for the GSoC work. I have been working closely with Lukas on the `engine-rename` role which has been assigned as one of the first tasks for the first review.
 
@@ -79,7 +79,7 @@ Assuming you were accessing the web-portal before doing your engine-rename part.
 
 I was testing all this out on a 2gig Linode centos7 box (Love these guys). Right now it's all manual provisioning. I have to take a look at [terraform](https://www.terraform.io/) sometime later. 
 
-The current workflow for me would be to create a new VM and then provision it using the [`ovirt-engine-setup`](https://github.com/rhevm-qe-automation/ovirt-ansible/tree/master/roles/ovirt-engine-setup) role which set's up the ovirt-engine for you. I have written a [blog post](http://tasdikrahman.me/2017/05/24/Installing-ovirt-4.1-on-centos-7-using-ansible-linode-Google-Summer-of-Code-oVirt-2017/) here if you are curious about how to do so using an ansible role.
+The current workflow for me would be to create a new VM and then provision it using the [`ovirt-engine-setup`](https://github.com/rhevm-qe-automation/ovirt-ansible/tree/master/roles/ovirt-engine-setup) role which set's up the ovirt-engine for you. I have written a [blog post](http://www.tasdikrahman.com/2017/05/24/Installing-ovirt-4.1-on-centos-7-using-ansible-linode-Google-Summer-of-Code-oVirt-2017/) here if you are curious about how to do so using an ansible role.
 
 Once that is done, your path for the role to rename the engine is quite clear.
 

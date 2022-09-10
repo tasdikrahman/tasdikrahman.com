@@ -18,7 +18,7 @@ Reaching the bus stop, Deepak was waiting already for me to board the bus whose 
 
 Fast forward a few more tense moments, till we manage to switch seats with someone to have both of us sitting together, we settled into our seats for good and off we went, the bus zooming through the traffic as we edged closer to leaving the city behind. Zoning out looking out of the window, looking at the city dwellers leaving office and going back in their shiny cars and two wheelers made me realise that most of us are part of the same race, each day when we try getting back to out lives after work. Only difference today being, that I was escaping away back from the humdrum of the city to something new. That new being. God's own Country - Kerala
 
-As I devoured my takeaway from Khawa korpo, I felt giddy happy as I have always wanted to visit Kerala, which is something which I wanted to do while I was doing my [solo trip](https://tasdikrahman.me/2019/03/22/solo-backpacking-trip-to-hampi-gokarna-goa-budget/) in the south-western edge some years back. And this was my moment I guess.
+As I devoured my takeaway from Khawa korpo, I felt giddy happy as I have always wanted to visit Kerala, which is something which I wanted to do while I was doing my [solo trip](https://www.tasdikrahman.com/2019/03/22/solo-backpacking-trip-to-hampi-gokarna-goa-budget/) in the south-western edge some years back. And this was my moment I guess.
 
 ## Alleppey
 

@@ -14,7 +14,7 @@ Hosted with love on Github pages, Domain registered at [Namecheap](https://namec
 #### OS X
 
 ```
-$ git clone https://github.com/tasdikrahman/tasdikrahman.me && cd tasdikrahman.me
+$ git clone https://github.com/tasdikrahman/www.tasdikrahman.com && cd www.tasdikrahman.com
 $ git checkout gh-pages
 $ brew install ruby coreutils
 $ gem install jekyll bundler
