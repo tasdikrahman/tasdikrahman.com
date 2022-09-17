@@ -2,7 +2,7 @@
 layout: post
 title: "Moving over to www.tasdikrahman.com from tasdikrahman.me"
 description: "Moving over to www.tasdikrahman.com from tasdikrahman.me"
-tags: [blog]
+tags: [blogmaintenance]
 comments: true
 share: true
 cover_image: ''

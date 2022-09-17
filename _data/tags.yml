@@ -72,8 +72,8 @@ ssl:
   name: ssl
 systemdesign:
   name: systemdesign
-blog:
-  name: blog
+blogmaintenance:
+  name: blogmaintenance
 tdd:
   name: tdd
 testing:
