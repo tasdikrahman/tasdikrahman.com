@@ -12,7 +12,7 @@ I have been writing over at this blog since mid 2015 and not much has changed ov
 
 ## Why did I end up moving?
 
-The .me domain name, from what I could gather, the registry which is operating it has access to it only till 2023, not that I am anticipating anything out of the blue, but I felt it's just makes sense long term to move to .com.
+The .me domain name, from what I could gather, the registry which is operating it has access to it only till 2023, not that I am anticipating anything out of the blue, but I felt it just makes sense long term to move to .com.
 
 Plus, the .me domain was with me since it came free along with the github education pack back in the days in college, which is why my domain tasdikrahman.me existed in the first place, I never ended up moving away from it at that time.
 
