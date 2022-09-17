@@ -4,6 +4,8 @@ apache:
   name: apache
 aws:
   name: aws
+blogmaintenance:
+  name: blogmaintenance
 backpacking:
   name: backpacking
 bigdata:
@@ -72,8 +74,6 @@ ssl:
   name: ssl
 systemdesign:
   name: systemdesign
-blogmaintenance:
-  name: blogmaintenance
 tdd:
   name: tdd
 testing:
