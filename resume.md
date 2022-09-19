@@ -8,8 +8,6 @@ title: Resume
 <p class="message">
     This page contains a copy of my resume and is in PDF format (LaTeX doesn't output to Word format)
 
-    <br><br>The fastest way to reach me would be through <i>hey AT tasdikrahman DOT me</i>
-
     <br><br><i>The blue highlights in the resume would be links to the references. Some of my Recommendations are available over
     my <a href="https://www.linkedin.com/in/tasdikrahman">linkedin profile</a>. Others would be made available on request.</i>
 
