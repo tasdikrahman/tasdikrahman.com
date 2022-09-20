@@ -2,7 +2,7 @@
 
 Based on [Pool/Hyde](https://github.com/poole/hyde)
 
-Heavily influnced from
+Heavily influnced from 
 
 - [chris banes blog](https://github.com/chrisbanes/chrisbanes.github.io)
 - [fred's blog](https://fredrikaverpil.github.io)
@@ -19,7 +19,7 @@ $ git checkout gh-pages
 $ brew install ruby coreutils
 $ gem install jekyll bundler
 $ bundle install
-$ bundle exec jekyll build
+$ bundle exec jekyll build 
 $ bundle exec jekyll serve
 ```
 
