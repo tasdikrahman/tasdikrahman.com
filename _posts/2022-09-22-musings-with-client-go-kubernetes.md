@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Musings with client-go"
-description: "Musings with client-go"
+title: "Musings with client-go of k8s"
+description: "Musings with client-go of k8s"
 tags: [kubernetes, golang]
 comments: true
 share: true
@@ -16,25 +16,25 @@ client-go in itself, shows a couple of example of client init [here](https://git
 
 ```golang
 ...
-	var kubeconfig *string
-	if home := homedir.HomeDir(); home != "" {
-		kubeconfig = flag.String("kubeconfig", filepath.Join(home, ".kube", "config"), "(optional) absolute path to the kubeconfig file")
-	} else {
-		kubeconfig = flag.String("kubeconfig", "", "absolute path to the kubeconfig file")
-	}
-	flag.Parse()
+var kubeconfig *string
+if home := homedir.HomeDir(); home != "" {
+  kubeconfig = flag.String("kubeconfig", filepath.Join(home, ".kube", "config"), "(optional) absolute path to the kubeconfig file")
+} else {
+	kubeconfig = flag.String("kubeconfig", "", "absolute path to the kubeconfig file")
+}
+flag.Parse()
 
-	// use the current context in kubeconfig
-	config, err := clientcmd.BuildConfigFromFlags("", *kubeconfig)
-	if err != nil {
-		panic(err.Error())
-	}
+// use the current context in kubeconfig
+config, err := clientcmd.BuildConfigFromFlags("", *kubeconfig)
+if err != nil {
+	panic(err.Error())
+}
 
-	// create the clientset
-	clientset, err := kubernetes.NewForConfig(config)
-	if err != nil {
-		panic(err.Error())
-	}
+// create the clientset
+clientset, err := kubernetes.NewForConfig(config)
+if err != nil {
+	panic(err.Error())
+}
 ...
 ```
 
@@ -146,8 +146,109 @@ func myMethod(k8sClient kubernetes.Interface, myObjects...) {
 }
 ```
 
-A full example of the same which I wrote is here where [`GetContainerImageForK8sObject()`] is the function under test, which takes the client as a dependency and then in the test case we would
-use the fake client [here like this](https://github.com/deliveryhero/k8s-cluster-upgrade-tool/blob/v0.4.0/internal/api/k8s/cluster_test.go#L44-L100)
+To give a more full example, here is a case where function returns the container image of the first container for a deployment of a daemonset object
+
+```go
+func GetContainerImageForK8sObject(k8sClient kubernetes.Interface, k8sObjectName, k8sObject, namespace string) (string, error) {
+	switch k8sObject {
+	case "deployment":
+		// NOTE: Not targeting other api versions for the objects as of now.
+		deployment, err := k8sClient.AppsV1().Deployments(namespace).Get(context.TODO(), k8sObjectName, metav1.GetOptions{})
+		if k8sErrors.IsNotFound(err) {
+			return "", fmt.Errorf("Deployment %s in namespace %s not found\n", k8sObjectName, namespace)
+		} else if statusError, isStatus := err.(*k8sErrors.StatusError); isStatus {
+			return "", fmt.Errorf("Error getting deployment %s in namespace %s: %v\n",
+				k8sObjectName, namespace, statusError.ErrStatus.Message)
+		} else if err != nil {
+			return "", fmt.Errorf("there was an error while retrieving the container image")
+		}
+
+		// NOTE: This assumes there is only one container in the k8s object, which is true for the components for us at moment
+		return deployment.Spec.Template.Spec.Containers[0].Image, nil
+	case "daemonset":
+		// NOTE: Not targeting other api versions for the objects as of now.
+		daemonSet, err := k8sClient.AppsV1().DaemonSets(namespace).Get(context.TODO(), k8sObjectName, metav1.GetOptions{})
+		if k8sErrors.IsNotFound(err) {
+			return "", fmt.Errorf("daemonset %s in namespace %s not found\n", k8sObjectName, namespace)
+		} else if statusError, isStatus := err.(*k8sErrors.StatusError); isStatus {
+			return "", fmt.Errorf(fmt.Sprintf("Error getting daemonset %s in namespace %s: %v\n",
+				k8sObjectName, namespace, statusError.ErrStatus.Message))
+		} else if err != nil {
+			return "", fmt.Errorf("there was an error while retrieving the container image")
+		}
+
+		// NOTE: This assumes there is only one container in the k8s object, which is true for the components for us at moment
+		return daemonSet.Spec.Template.Spec.Containers[0].Image, nil
+	default:
+		return "", fmt.Errorf("please choose between Daemonset or Deployment k8sobject as they are currently supported")
+	}
+}
+```
+
+Specific case when the object is of kind `Deployment`
+
+```go
+func TestGetContainerImageForK8sObjectWhenK8sObjectIsDeployment(t *testing.T) {
+	type deploymentArgs struct {
+		k8sObject     string
+		k8sObjectName string
+		kubeContext   string
+		namespace     string
+		deployment    *appsv1.Deployment
+	}
+	tests := []struct {
+		name   string
+		args   deploymentArgs
+		err    error
+		output string
+	}{
+		{
+			name: "When the object is of type deployment, the objectname is cluster-autoscaler, object exists and returns back the image",
+			args: deploymentArgs{k8sObject: "deployment", k8sObjectName: "cluster-autoscaler", kubeContext: "test-context", namespace: "kube-system",
+				deployment: &appsv1.Deployment{
+					ObjectMeta: metav1.ObjectMeta{
+						Name:      "cluster-autoscaler",
+						Namespace: "kube-system",
+					},
+					Spec: appsv1.DeploymentSpec{
+						Template: corev1.PodTemplateSpec{
+							Spec: corev1.PodSpec{
+								Containers: []corev1.Container{
+									{
+										Image: "cluster-autoscaler:v1.0.0",
+									},
+								},
+							},
+						},
+					},
+				}},
+			output: "cluster-autoscaler:v1.0.0",
+			err:    nil,
+		},
+		{
+			name: "When the object is of type deployment, the objectname is cluster-autoscaler, object doesn't exist, returns back error",
+			args: deploymentArgs{k8sObject: "deployment", k8sObjectName: "cluster-autoscaler", kubeContext: "test-context", namespace: "kube-system",
+				deployment: &appsv1.Deployment{}},
+			output: "",
+			err:    errors.New("Deployment cluster-autoscaler in namespace kube-system not found\n"),
+		},
+	}
+
+	for _, tt := range tests {
+		t.Run(tt.name, func(t *testing.T) {
+			client := fake.NewSimpleClientset(tt.args.deployment)
+
+			got, err := GetContainerImageForK8sObject(client, tt.args.k8sObjectName, tt.args.k8sObject, tt.args.namespace)
+
+			assert.Equal(t, tt.output, got)
+			assert.Equal(t, tt.err, err)
+		})
+	}
+}
+```
+
+A full example of the same which I wrote is here where [`GetContainerImageForK8sObject()`](https://github.com/deliveryhero/k8s-cluster-upgrade-tool/blob/d19b863c9daec01e3f5378ae7a32fb3bf94e86bd/internal/api/k8s/cluster.go#L111) is the function under test, which takes the client as a dependency and then in the test case we would use the fake client [here like this](https://github.com/deliveryhero/k8s-cluster-upgrade-tool/blob/v0.4.0/internal/api/k8s/cluster_test.go#L44-L100)
+
 
 ## References
 
