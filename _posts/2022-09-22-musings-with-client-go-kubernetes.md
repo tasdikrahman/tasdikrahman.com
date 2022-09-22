@@ -58,7 +58,7 @@ This is also where we notice that [we can add an override](https://github.com/ku
 
 So how do we go about overriding this?
 
-### Initializing to a user specified context
+### Initializing client-go to a user specified k8s context
 
 We would just need to have the [`Context`](https://github.com/kubernetes/client-go/blob/1110612dc6e599ae817abbcb762c7c5e87e99a51/tools/clientcmd/overrides.go#L35) added to [`ConfigOverrides`](https://github.com/kubernetes/client-go/blob/1110612dc6e599ae817abbcb762c7c5e87e99a51/tools/clientcmd/overrides.go#L30), when the call to ClientConfig() gets made at the in [`BuildConfigFromFlags()`](https://github.com/kubernetes/client-go/blob/1110612dc6e599ae817abbcb762c7c5e87e99a51/tools/clientcmd/client_config.go#L613)
 
