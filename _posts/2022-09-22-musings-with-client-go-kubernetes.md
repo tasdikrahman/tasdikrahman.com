@@ -8,7 +8,7 @@ share: true
 cover_image: ''
 ---
 
-This post mostly is for documentary purposes for myself, about a few things which I ended up noticing while using [client-go](https://github.com/kubernetes/client-go) as I used it for [deliveryhero/k8s-cluster-upgrade-tool](github.com/deliveryhero/k8s-cluster-upgrade-tool), which used the out-cluster client configuration, a couple of things are specific to that setup, like client init, but other things like testing interactions via client-go are more generic.
+This post mostly is for documentary purposes for myself, about a few things which I ended up noticing while using [client-go](https://github.com/kubernetes/client-go) as I used it for [deliveryhero/k8s-cluster-upgrade-tool](https://github.com/deliveryhero/k8s-cluster-upgrade-tool), which used the out-cluster client configuration, a couple of things are specific to that setup, like client init, but other things like testing interactions via client-go are more generic.
 
 ## Initialization of the config
 
@@ -106,7 +106,7 @@ kubeClient, err := k8s.KubeClientInit("cluster-name")
 
 ## Testing client-go interactions
 
-While writing a couple of interactions on [deliveryhero/k8s-cluster-upgrade-tool](github.com/deliveryhero/k8s-cluster-upgrade-tool), ended up checking what were folks doing to add specs for interactions with client-go, and we already had the [https://pkg.go.dev/k8s.io/client-go/kubernetes/fake](https://pkg.go.dev/k8s.io/client-go/kubernetes/fake) package out there which one could use to test the interactions with the client.
+While writing a couple of interactions on [deliveryhero/k8s-cluster-upgrade-tool](https://github.com/deliveryhero/k8s-cluster-upgrade-tool), ended up checking what were folks doing to add specs for interactions with client-go, and we already had the [https://pkg.go.dev/k8s.io/client-go/kubernetes/fake](https://pkg.go.dev/k8s.io/client-go/kubernetes/fake) package out there which one could use to test the interactions with the client.
 
 My specific cases for testing were quite simple to setup. The first thing again, which you would need to take care of is obviously, that the method which you want to test, should be able to take the client as a dependency which you inject in the spec. After that's it's super simple.
 
@@ -253,7 +253,7 @@ A full example of the same which I wrote is here where [`GetContainerImageForK8s
 ## References
 
 - [https://github.com/kubernetes/client-go](https://github.com/kubernetes/client-go)
-- [github.com/deliveryhero/k8s-cluster-upgrade-tool](github.com/deliveryhero/k8s-cluster-upgrade-tool)
+- [https://github.com/deliveryhero/k8s-cluster-upgrade-tool](https://github.com/deliveryhero/k8s-cluster-upgrade-tool)
 - [https://pkg.go.dev/k8s.io/client-go/kubernetes/fake](https://pkg.go.dev/k8s.io/client-go/kubernetes/fake)
 - [`BuildConfigFromFlags()`](https://github.com/kubernetes/client-go/blob/1110612dc6e599ae817abbcb762c7c5e87e99a51/tools/clientcmd/client_config.go#L613)
 - [`ClientConfig()`](https://github.com/kubernetes/client-go/blob/1110612dc6e599ae817abbcb762c7c5e87e99a51/tools/clientcmd/client_config.go#L134)
