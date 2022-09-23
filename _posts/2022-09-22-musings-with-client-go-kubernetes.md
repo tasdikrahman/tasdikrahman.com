@@ -54,9 +54,9 @@ with the above, the client will get initliazed with the k8s context being `foo-c
 
 What ends up happening underneath is that, the method [BuildConfigFromFlags()](https://github.com/kubernetes/client-go/blob/1110612dc6e599ae817abbcb762c7c5e87e99a51/tools/clientcmd/client_config.go#L613), which goes on to call [ClientConfig()](https://github.com/kubernetes/client-go/blob/1110612dc6e599ae817abbcb762c7c5e87e99a51/tools/clientcmd/client_config.go#L134), which is where the k8s context is deduced, when the call to [getContext()](https://github.com/kubernetes/client-go/blob/1110612dc6e599ae817abbcb762c7c5e87e99a51/tools/clientcmd/client_config.go#L144) gets made. The flow defaults to the current context via the call made to [getContextName()](https://github.com/kubernetes/client-go/blob/1110612dc6e599ae817abbcb762c7c5e87e99a51/tools/clientcmd/client_config.go#L462).
 
-This is also where we notice that [we can add an override](https://github.com/kubernetes/client-go/blob/1110612dc6e599ae817abbcb762c7c5e87e99a51/tools/clientcmd/client_config.go#L427), which if added, would select that particular context, instead of choosing the default, which is picked up from the current context lready selected in the `~/.kube/context`.
+This is also where we notice that [we can add an override](https://github.com/kubernetes/client-go/blob/1110612dc6e599ae817abbcb762c7c5e87e99a51/tools/clientcmd/client_config.go#L427), which if added, would select that particular context, instead of choosing the default, which is picked up from the current context already selected in the `~/.kube/context`. The only thing is this override is not accessible directly from the BuildConfigFromFlags method, which is what we were using initially, checking further, I didn't find anything which would help with this in the package, or maybe I missed something feel free to point it out.
 
-So how do we go about overriding this?
+But how do we go about overriding this?
 
 ### Initializing client-go to a user specified k8s context
 
