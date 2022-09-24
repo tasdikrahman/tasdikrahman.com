@@ -35,7 +35,7 @@ title: Speaking
 
 - ["Demystifying how imports work in python", ChennaiPy October 2016](#how-imports-word-chennaipy)
 
-### <a name="bangalorek8smeetupseptember2022")/>[Keeping up with Kubernetes cluster upgrades, Bangalore k8s meetup, September 2022](https://www.meetup.com/kubernetes-openshift-india-meetup/events/288277755/)
+### <a name="bangalorek8smeetupseptember2022"/>[Keeping up with Kubernetes cluster upgrades, Bangalore k8s meetup, September 2022](https://www.meetup.com/kubernetes-openshift-india-meetup/events/288277755/)
 
 - **Meetup schedule**: [Bangalore K8s Meetup, 2022](https://www.meetup.com/kubernetes-openshift-india-meetup/events/288277755/)
 
