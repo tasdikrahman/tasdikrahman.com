@@ -8,6 +8,10 @@ title: Speaking
 <!--## <a name="index"/>Index-->
 
 
+#### 2022
+
+- ["Keeping up with Kubernetes cluster upgrades", Bangalore Kubernetes meetup, India, September 2022](#bangalorek8smeetupseptember2022)
+
 #### 2020
 
 - ["TDD: An Experience report", Bangalore Ruby meetup, India, 2020](#devconfindia2019)
@@ -30,6 +34,12 @@ title: Speaking
 #### 2016
 
 - ["Demystifying how imports work in python", ChennaiPy October 2016](#how-imports-word-chennaipy)
+
+### <a name="bangalorek8smeetupseptember2022")/>[Keeping up with Kubernetes cluster upgrades, Bangalore k8s meetup, September 2022](https://www.meetup.com/kubernetes-openshift-india-meetup/events/288277755/)
+
+- **Meetup schedule**: [Bangalore K8s Meetup, 2022](https://www.meetup.com/kubernetes-openshift-india-meetup/events/288277755/)
+
+<script async class="speakerdeck-embed" data-id="5c166502e7e0418dad72eb6c65849ca0" data-ratio="1.77725118483412" src="//speakerdeck.com/assets/embed.js"></script>
 
 
 ### <a name="devconfindia2019"/>[TDD: An Experience report, Bangalore Ruby meetup, India, 2020](https://hasgeek.com/rootconf/2019-hyderabad/proposals/achieving-repeatable-extensible-and-self-serve-inf-UdSWH47A4gLHpjJbvcnu9M)
