@@ -51,3 +51,7 @@ If you have implemented some other setup for a large sprawl of k8s clusters for 
 ## References
 
 - [https://github.com/openshift/managed-upgrade-operator/blob/master/docs/design.md](https://github.com/openshift/managed-upgrade-operator/blob/master/docs/design.md)
+- [https://github.com/openshift/managed-upgrade-operator](https://github.com/openshift/managed-upgrade-operator)
+- [https://github.com/hellofresh/eks-rolling-update](https://github.com/hellofresh/eks-rolling-update)
+- [https://github.com/deliveryhero/k8s-cluster-upgrade-tool](https://github.com/deliveryhero/k8s-cluster-upgrade-tool)
+
