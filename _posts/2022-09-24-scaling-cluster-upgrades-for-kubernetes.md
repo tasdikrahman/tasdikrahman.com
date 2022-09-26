@@ -36,7 +36,13 @@ As described in the last tweet, the control loop managing the final state of the
 
 While there are more examples of automation of rolling upgrades for node groups out there [https://github.com/keikoproj/upgrade-manager](https://github.com/keikoproj/upgrade-manager) taking over the control loop approach for a specific subset of the problem statement of the upgrade process.
 
-Along with [https://github.com/hellofresh/eks-rolling-update](https://github.com/hellofresh/eks-rolling-update) and [https://github.com/deliveryhero/k8s-cluster-upgrade-tool](https://github.com/deliveryhero/k8s-cluster-upgrade-tool)(P.S. is written by me), both of which are human operated, while although do solve the problem in case, but the openshift's implementation is a more complete autopilot way of doing the upgrade.
+Along with [https://github.com/hellofresh/eks-rolling-update](https://github.com/hellofresh/eks-rolling-update) and [https://github.com/deliveryhero/k8s-cluster-upgrade-tool](https://github.com/deliveryhero/k8s-cluster-upgrade-tool)(P.S. is written by me), both of which are human operated, while although do solve the problem in case, but the openshift's implementation is a more complete autopilot way of doing the upgrade. Even though if we end up adding the operations of cluster upgrade process further to this way, operations like control plane upgrade, upgrade of the managed node groups, we have to at the end of the day, wrangle with the state and modifying it further with the tools which we would have created/managing the specific k8s resources. In this case the control plane, the node groups and the k8s components which form the cluster's bare minimum operational foundations.
+
+### Closing thoughts
+
+The control loop strategy would also ask us the question or reconsider how we are creating and managing these k8s specific resources like control plane for the managed provider, managed node groups and the k8s components managed by helm. In any case, I foresee someone wanting to consolidate their automation or creation/management process back to the control loop automation which they have in order to have standardisation over time.
+
+The whole IAC being run via atlantis and having terragrunt to run plan/apply in the CI is a not so uncommon setup as of now, but the churn of cluster upgrades and the complexity which comes up with it, is the not the same as managing a couple of managed services via the terraform config, upgrade/delete of which is most of the times a one step plan/apply.
 
 If you have implemented some other setup for a large sprawl of k8s clusters for yourself. Would love to hear more about it.
 
