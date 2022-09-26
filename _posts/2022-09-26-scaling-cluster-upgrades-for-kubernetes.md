@@ -48,6 +48,8 @@ The control loop strategy would make us the question or reconsider how we are cr
 
 The whole IAC being run via atlantis and having terragrunt to run plan/apply in the CI is a not so uncommon of a setup as of now, but the churn of cluster upgrades and the complexity which comes up with it, is the not the same as managing a couple of managed services via the terraform config, upgrade/delete of which is most of the times a one step plan/apply.
 
+While to each to their own setup. But in general, reaching to a state where k8s clusters itself are not pets, is a fairly complex problem. If you have already reached that state, then your state of a new cluster creation is very mature, cleaning up of which might be the next logical step to think about, after which you can do a blue-green deployment of the new cluster setup. But again, I have not seen this work out successfully so far, hence, don't think of your k8s cluster as a pod by this extension of thinking. Save the state of the cluster in a way in which you can modify it over time with your tooling.
+
 If you have implemented some other setup for a large sprawl of k8s clusters for yourself. Would love to hear more about it.
 
 ## References
