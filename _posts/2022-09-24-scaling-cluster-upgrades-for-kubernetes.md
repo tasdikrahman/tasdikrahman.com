@@ -34,6 +34,10 @@ The same is echoed in this tweet here.
 
 As described in the last tweet, the control loop managing the final state of the infrastructure in question, makes us think more in the direction in which cluster-api is going. I have come across [https://github.com/openshift/managed-upgrade-operator](https://github.com/openshift/managed-upgrade-operator), which is the closest I have seen an OSS implementation so far to being well documented and how I would probably lean into solutioning this problem for a large scale cluster sprawl.
 
+While there are more examples of automation of rolling upgrades for node groups out there [https://github.com/keikoproj/upgrade-manager](https://github.com/keikoproj/upgrade-manager) taking over the control loop approach for a specific subset of the problem statement of the upgrade process.
+
+Along with [https://github.com/hellofresh/eks-rolling-update](https://github.com/hellofresh/eks-rolling-update) and [https://github.com/deliveryhero/k8s-cluster-upgrade-tool](https://github.com/deliveryhero/k8s-cluster-upgrade-tool)(P.S. is written by me), both of which are human operated, while although do solve the problem in case, but the openshift's implementation is a more complete autopilot way of doing the upgrade.
+
 If you have implemented some other setup for a large sprawl of k8s clusters for yourself. Would love to hear more about it.
 
 ## References
