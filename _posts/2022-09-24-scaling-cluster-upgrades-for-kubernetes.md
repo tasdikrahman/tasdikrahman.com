@@ -10,7 +10,9 @@ cover_image: ''
 
 This post is more of a continuation of the talk I gave over at [kubernetes bangalore k8s september 2022 meetup](https://www.meetup.com/kubernetes-openshift-india-meetup/events/288277755/).
 
-Here are the slides, which you can take a peek over, to complement this post.
+Here are the slides, which you can take a peek over, to complement this post, if you would like to go through it before reading further.
+
+<script async class="speakerdeck-embed" data-id="5c166502e7e0418dad72eb6c65849ca0" data-ratio="1.77725118483412" src="//speakerdeck.com/assets/embed.js"></script>
 
 ## Context
 
