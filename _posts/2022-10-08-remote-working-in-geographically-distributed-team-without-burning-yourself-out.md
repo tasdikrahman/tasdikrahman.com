@@ -25,4 +25,5 @@ This post is just for documentary purposes for me to look back how I have fared 
 - see what are you trying to balance along with your work times and see how they align and make sure you communicate it.
 - 1-1 with your manager is you time since this is for the reportee to convey concerns/ideas to the person you are reporting to
 - not checking work devices frequently outside of work hours.
+- understand the set of practices already being followed by your team, if it has already been working remotely for sometime and follow them
 
