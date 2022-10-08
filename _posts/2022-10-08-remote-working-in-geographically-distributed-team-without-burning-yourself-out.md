@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Working remotely without burning yourself out"
-description: "Working remotely without burning yourself out"
+title: "working remotely in a geographically distributed team without burning yourself out"
+description: "Working remotely in a geographically distributed team without burning yourself out"
 tags: [remote-work]
 comments: true
 share: true
