@@ -64,6 +64,8 @@ ruby:
   name: ruby
 rubyonrails:
   name: rubyonrails
+remote-work:
+  name: remote-work
 security:
   name: security
 softwaredevelopment:
