@@ -15,7 +15,7 @@ A list of public talks given by me, can be found [here](https://www.tasdikrahman
 
 #### Presently
 
-- Part of the container fabric team @ [Newrelic](https://newrelic.com)
+- Part of the Telemetry Data platform @ [New Relic](https://newrelic.com)
 
 #### Formerly
 
