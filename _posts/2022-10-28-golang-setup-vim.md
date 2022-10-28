@@ -30,11 +30,9 @@ Cleaned up my [vim](https://www.vim.org/) configuration which I was trying to se
 
 This setup will evolve and has space for a couple of things which I will incrementally add over time in the next few weeks.
 
-# ale along vim.coc
-
-I turned off the lsp settings for ale, so that vim.coc would take it over
-
 # Impressions so far
+
+I turned off the lsp settings for ale, so that vim.coc would take it over, haven't removed vim-go completely as I still use a couple of things from there.
 
 The jump of definitions after moving over to gopls, and vim.coc giving over jumping to references, definitions, godocs comes almost the same to the setup for an IDE, along with being able to fold along with using [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter) is something which adds up really well along with [ctrl+p](https://github.com/kien/ctrlp.vim)
 
