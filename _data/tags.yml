@@ -84,6 +84,8 @@ travel:
   name: travel
 ubuntu:
   name: ubuntu
+vim:
+  name: vim
 x509:
   name: x509
 engineering-productivity:
