@@ -1,12 +1,26 @@
 ---
 layout: post
-title: "Golang setup for vim"
-description: "Golang setup for vim"
+title: "My vim setup for golang"
+description: "My vim setup for golang"
 tags: [golang, vim]
 comments: true
 share: true
 cover_image: ''
 ---
+
+# tl;dr what does all this get me in my setup
+
+[https://github.com/tasdikrahman/dotfiles/tree/master/vim](https://github.com/tasdikrahman/dotfiles/tree/master/vim)
+
+- jump to definitions
+- jump to references
+- jump to symbols
+- fuzzy file search
+- code folding
+- jumping between test and implementation file
+- testing specific function
+- real time code linting
+
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Cleaning my vim config after some time and ended up removing a bunch of things and starting afresh, a couple of plugins which had been archived but worked all the while were <a href="https://t.co/lmjXtN7HbS">https://t.co/lmjXtN7HbS</a>, switched to <a href="https://t.co/7ZSoKMgwBW">https://t.co/7ZSoKMgwBW</a> as it was the recommended replacement (1/n)</p>&mdash; Tasdik Rahman (@tasdikrahman) <a href="https://twitter.com/tasdikrahman/status/1585959045122621440?ref_src=twsrc%5Etfw">October 28, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
@@ -29,17 +43,6 @@ Turned off the go autoimports functionality which is given over by vim-coc
 The go-build and go-run keybindings which I had are already being used, same for the :GoAlternate keybindings to jump and split the panes when going over test and implementation files, along with the highlight configs is something which I have kept.
 
 I did end up removing ultisnips which is one of the plugins presented in vim-go, with coc-go and coc-snippets, as they almost provide the same thing.
-
-# tl;dr what does all this get me in my setup
-
-- jump to definitions
-- jump to references
-- jump to symbols
-- fuzzy file search
-- code folding
-- jumping between test and implementation file
-- testing specific function
-- real time code linting
 
 # What does it lack as of now
 
