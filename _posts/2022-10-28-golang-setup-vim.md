@@ -8,6 +8,8 @@ share: true
 cover_image: ''
 ---
 
+Ok, not vim, but [nvim](https://neovim.io/)
+
 # tl;dr what does all this get me in my setup
 
 [https://github.com/tasdikrahman/dotfiles/tree/master/vim](https://github.com/tasdikrahman/dotfiles/tree/master/vim)
