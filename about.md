@@ -5,9 +5,9 @@ title: About Me
 
 This site is a partial collection of projects I've worked on, stories I've written down and software I've published.
 
-A generalist developer, with a focus on the infrastructure side of things. I love working on building systems and software which help the developers become more efficient by abstracting out infrastructure and making it simpler for them, so that it gets out of their way. In that process, I pick up the language(s)/tool(s), which make the most sense for the task at hand, but I do have a soft spot for [python](https://python.org/), [golang](https://golang.org) and [ruby](https://www.ruby-lang.org/en/) these days.
+A generalist developer, with a focus on the infrastructure side of things.
 
-When I'm not working on a [side project](https://github.com/tasdikrahman), I can be found playing football (soccer if you may) or [cycling](https://www.strava.com/athletes/38551461) and watching EPL (Go Chelsea!). I am very fond of [backpacking](https://www.tasdikrahman.com/blog/tag/travel/), within and outside India. I also love attending theatre performances and have been trying to improve my skills at [Argentine tango](https://en.wikipedia.org/wiki/Argentine_tango). You might find me with a [book/kindle](https://www.goodreads.com/user/show/19151223-tasdik-rahman) if we stumble upon each other.
+I enjoy bouldering in my free time. [Backpacking](https://tasdikrahman.me/blog/tag/travel/) is something which I am very fond of. You might find me with a [book/kindle](https://www.goodreads.com/user/show/19151223-tasdik-rahman) if we stumble upon each other.
 
 A list of public talks given by me, can be found [here](https://www.tasdikrahman.com/speaking/).
 
