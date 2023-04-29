@@ -68,5 +68,21 @@ end
 EOF
 ```
 
-The flow of usage is pretty out of the box, add your breakpoints in the place you want with `:lua require'dap'.toggle_breakpoint()` at the places you want, then debug a specific test with `:lua require('dap-go').debug_test()`, to go over through the breakpoints, you do a `:lua require('dap').continue()`, and to terminate the process `lua require'dap'.terminate()`
+# Workflow
 
+The flow of usage is pretty out of the box
+- add your breakpoints in the place you want with `:lua require'dap'.toggle_breakpoint()` at the places you want
+- then debug a specific test with `:lua require('dap-go').debug_test()`
+- to go over through the breakpoints, you do a `:lua require('dap').continue()`
+- and to terminate the process `lua require'dap'.terminate()`
+
+# Key maps being used
+
+I am as of now using the following keymaps
+
+```vim
+nmap <silent> <leader>tb :lua require'dap'.toggle_breakpoint()<CR>
+nmap <silent> <leader>tc :lua require'dap'.continue()<CR>
+nmap <silent> <leader>tt :lua require'dap'.terminate()<CR>
+nmap <silent> <leader>td :lua require('dap-go').debug_test()<CR>
+```
