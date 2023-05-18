@@ -2,7 +2,7 @@
 layout: post
 title: "Introducing Kingsly — The Cert Manager"
 description: "How an internal hackathon project led to the creation of GOJEK’s open-source certificate management tool"
-tags: [security, x509, devops, ruby, rubyonrails, letsencrypt, oss]
+tags: [security, x509, devops, ruby, rubyonrails, letsencrypt, oss, ssl]
 comments: true
 share: true
 cover_image: '/content/images/2020/04/kingsly_header.jpeg'
@@ -76,9 +76,9 @@ We need a solution to this problem — something very basic without a high learn
 
 It all started last December, when our team was contemplating what to ship for our internal company hackathon.
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">It&#39;s going to be a looooong night here. 20+ teams taking part in our internal hackathon. <a href="https://twitter.com/gojektech?ref_src=twsrc%5Etfw">@gojektech</a> <br><br>Let the games, sorry, hacks begin 😉 <a href="https://t.co/6yRjfo4GX6">pic.twitter.com/6yRjfo4GX6</a></p>&mdash; Gojek Tech (@gojektech) <a href="https://twitter.com/gojektech/status/1070276401885052928?ref_src=twsrc%5Etfw">December 5, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">It&#39;s going to be a looooong night here. 20+ teams taking part in our internal hackathon. <a href="https://twitter.com/gojektech?ref_src=twsrc%5Etfw">@gojektech</a> <br><br>Let the games, sorry, hacks begin 😉 <a href="https://t.co/6yRjfo4GX6">pic.twitter.com/6yRjfo4GX6</a></p>&mdash; Gojek Tech (@gojektech) <a href="https://twitter.com/gojektech/status/1070276401885052928?ref_src=twsrc%5Etfw">December 5, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Our second internal hackathon in Bangalore starts today! 😎 <br><br>We&#39;re pulling an all nighter starting at 4pm today to 12pm tomorrow noon. 😈<br><br>01101000 01100001 01100011 01101011 <a href="https://t.co/BBN3Filu5D">pic.twitter.com/BBN3Filu5D</a></p>&mdash; Gojek Tech (@gojektech) <a href="https://twitter.com/gojektech/status/1070205884947750912?ref_src=twsrc%5Etfw">December 5, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Our second internal hackathon in Bangalore starts today! 😎 <br><br>We&#39;re pulling an all nighter starting at 4pm today to 12pm tomorrow noon. 😈<br><br>01101000 01100001 01100011 01101011 <a href="https://t.co/BBN3Filu5D">pic.twitter.com/BBN3Filu5D</a></p>&mdash; Gojek Tech (@gojektech) <a href="https://twitter.com/gojektech/status/1070205884947750912?ref_src=twsrc%5Etfw">December 5, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 This tool was a perfect candidate for the night as it was both:
 
