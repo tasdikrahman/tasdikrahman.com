@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Renewing your root CA in a way such that the certificates signed by it are still valid when you replace the root CA"
-description: "Renewing your root CA in a way such that the certificates signed by it are still valid when you replace the root CA"
+title: "Renewing your root CA with a new root CA such that the older certs signed by old root CA are still valid"
+description: "Renewing your root CA with a new root CA such that the older certs signed by old root CA are still valid"
 tags: [ssl]
 comments: true
 share: true
