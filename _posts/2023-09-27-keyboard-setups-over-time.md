@@ -19,7 +19,7 @@ The setup in my room was also not very ergonomic in the first place as I didn't 
 
 For elevating the laptop, from it's usual level on the table, I would use books to raise it a bit above, but that was also acting up as a helper for the fan for the laptop, which was notorious to get heated up really quickly. One reason being, the fan was just too small and it being that compact, might not have really helped in the whole heatmanagement of the whole machine.
 
-<center><img src="/content/images/2023/09/IMG_2326.jpg"></center>
+<center><img src="/content/images/2023/09/college_keyboard_setup.jpg"></center>
 
 This setup was mostly what I used for the rest of college, this image dates back to 2015.
 
@@ -35,17 +35,18 @@ The two keyboards being
 
 Here's a picture of me with both of the keyboards, over at possibly the first mechanical keyboard meetup in Bangalore, dating back to 2019, which also was the start of the [/r/mkindia](https://reddit.com/r/mkindia) community.
 
-<center><img src="/content/images/2023/09/img_1187.jpg"></center>
+<center><img src="/content/images/2023/09/blr_keyboard_meetup.jpg"></center>
 
-<center><img src="/content/images/2023/09/IMG_1175.JPG"></center>
+<center><img src="/content/images/2023/09/blr_keyboard_meetup_1.jpg"></center>
 
-<center><img src="/content/images/2023/09/IMG_1191.JPG"></center>
+<center><img src="/content/images/2023/09/mk_community.jpg"></center>
 
 # Change over from Cherry MX blue to Cherry MX brown switch
 
 At some point, I decided to try out the brown switch, as I hadn't tried it before, it did feel different from the blue switch, but I got used to it over time.
 
-<center><img src="/content/images/2023/09/IMG_5593.JPG"></center>
+
+<center><img src="/content/images/2023/09/cm_storm_setup.jpg"></center>
 
 # Current setup as of September 2023
 
@@ -55,7 +56,7 @@ And I ended up with the [Kinsesis Advantage 360 Pro](https://kinesis-ergo.com/sh
 
 The keyboard certainly has taken me time to get used to for sure, but I have liked it so far, the initial days of using it were super slow, but I am slowly getting back to the touch typing on it.
 
-<center><img src="/content/images/2023/09/IMG_5593.JPG"></center>
+<center><img src="/content/images/2024/09/kinesis_setup.jpg"></center>
 
 This is combined with a standing desk and a nice ergonomic chair and a single monitor with a laptop stand. Looking back, the setup has certainly come a long way.
 
