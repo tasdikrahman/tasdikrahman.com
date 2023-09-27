@@ -22,6 +22,8 @@ deployments:
   name: deployments
 docker:
   name: docker
+engineering-productivity:
+  name: engineering-productivity
 etcd:
   name: etcd
 gamedevelopment:
@@ -86,8 +88,8 @@ ubuntu:
   name: ubuntu
 vim:
   name: vim
+worksetup:
+  name: worksetup
 x509:
   name: x509
-engineering-productivity:
-  name: engineering-productivity
 
