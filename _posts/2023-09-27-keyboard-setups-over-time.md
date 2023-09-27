@@ -45,6 +45,7 @@ Here's a picture of me with both of the keyboards, over at possibly the first me
 
 At some point, I decided to try out the brown switch, as I hadn't tried it before, it did feel different from the blue switch, but I got used to it over time.
 
+The keyboard ended being a [CM storm QuickFire Rapid](https://www.mechanical-keyboard.org/cm-storm-quickfire-rapid/)
 
 <center><img src="/content/images/2023/09/cm_storm_setup.jpg"></center>
 
@@ -56,7 +57,7 @@ And I ended up with the [Kinsesis Advantage 360 Pro](https://kinesis-ergo.com/sh
 
 The keyboard certainly has taken me time to get used to for sure, but I have liked it so far, the initial days of using it were super slow, but I am slowly getting back to the touch typing on it.
 
-<center><img src="/content/images/2024/09/kinesis_setup.jpg"></center>
+<center><img src="/content/images/2023/09/kinesis_setup.jpg"></center>
 
 This is combined with a standing desk and a nice ergonomic chair and a single monitor with a laptop stand. Looking back, the setup has certainly come a long way.
 
