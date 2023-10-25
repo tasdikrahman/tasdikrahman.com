@@ -8,7 +8,7 @@ share: true
 cover_image: ''
 ---
 
-I have been oncall for as long as I can remember being in the industry so far for every organisation I have been part of. Different things have worked at different phases of the organisation and the teams priorities. I thought I would put down some notes over things which I have seen have worked well.
+I have been oncall for as long as I can remember being in the industry, so far for every organisation I have been part of. Different things have worked at different phases of the organisation and the teams priorities. I thought I would put down some notes over things which I have seen have worked well.
 
 # Why do we need to have oncall rotations?
 
