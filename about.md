@@ -7,7 +7,7 @@ This site is a partial collection of projects I've worked on, stories I've writt
 
 A generalist developer, with a focus on the infrastructure side of things.
 
-I enjoy bouldering in my free time. [Backpacking](https://tasdikrahman.me/blog/tag/travel/) is something which I am very fond of. You might find me with a [book/kindle](https://www.goodreads.com/user/show/19151223-tasdik-rahman) if we stumble upon each other.
+I enjoy [bouldering](https://en.wikipedia.org/wiki/Bouldering), dancing Salsa, reading books and heading over to [Union FC's](https://www.fc-union-berlin.de/en/) football matches regularly. [Backpacking](https://tasdikrahman.me/blog/tag/travel/) is something which I am very fond.
 
 A list of public talks given by me, can be found [here](https://www.tasdikrahman.com/speaking/).
 
@@ -15,7 +15,7 @@ A list of public talks given by me, can be found [here](https://www.tasdikrahman
 
 #### Presently
 
-- Part of the Telemetry Data platform @ [New Relic](https://newrelic.com)
+- Senior Software Engineer @ [New Relic](https://newrelic.com)'s Kubernetes-based compute infrastructure team.
 
 #### Formerly
 
