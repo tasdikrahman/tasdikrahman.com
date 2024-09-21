@@ -40,6 +40,7 @@ title: Speaking
 
 ### <a name="containerdayshamburg2024"/>[How to make pod assignment to thousands of nodes every day easier](https://www.containerdays.io/containerdays-conference-2024/agenda/)
 
+- **Presentation recording**: [https://www.youtube.com/watch?v=BDdzvM83iYc](https://www.youtube.com/watch?v=BDdzvM83iYc)
 - **Conference Schedule**: [ContainerDays, 2024 Hamburg](https://www.containerdays.io/containerdays-conference-2024/agenda/)
 
 <script defer class="speakerdeck-embed" data-id="71861a83ee134294b880974e838680e5" data-ratio="1.7772511848341233" src="//speakerdeck.com/assets/embed.js"></script>
