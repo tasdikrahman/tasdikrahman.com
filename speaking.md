@@ -7,6 +7,9 @@ title: Speaking
 
 <!--## <a name="index"/>Index-->
 
+#### 2024
+
+- ["How to make pod assignment to thousands of nodes every day easier", ContainerDays, Hamburg 2024](#containerdayshamburg2024)
 
 #### 2022
 
@@ -34,6 +37,12 @@ title: Speaking
 #### 2016
 
 - ["Demystifying how imports work in python", ChennaiPy October 2016](#how-imports-word-chennaipy)
+
+### <a name="containerdayshamburg2024"/>[How to make pod assignment to thousands of nodes every day easier](https://www.containerdays.io/containerdays-conference-2024/agenda/)
+
+- **Conference Schedule**: [ContainerDays, 2024 Hamburg](https://www.containerdays.io/containerdays-conference-2024/agenda/)
+
+<script defer class="speakerdeck-embed" data-id="71861a83ee134294b880974e838680e5" data-ratio="1.7772511848341233" src="//speakerdeck.com/assets/embed.js"></script>
 
 ### <a name="bangalorek8smeetupseptember2022"/>[Keeping up with Kubernetes cluster upgrades, Bangalore k8s meetup, September 2022](https://www.meetup.com/kubernetes-openshift-india-meetup/events/288277755/)
 
