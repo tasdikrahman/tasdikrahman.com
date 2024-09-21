@@ -67,32 +67,32 @@ When I attended my first kubecon back in 2017, in Austin. I met Kelsey Hightower
 
 Some thoughts which I was able to scribble down during the fireside chat, where Kelsey was taking questions.
 
-    - How did everything start?
-        - best answer is luck.
-        - was working since k8s was public with coreos being there.
-    - Why k8s started off?
-        - MSFT betting big on it, when brendan joined.
-        - and they bet on it, which was big coming from a competitor
-    - People say k8s is complex, because they don’t understand it.
-        - Linux is also complex, but no one says it’s complex explicitly.
-    - K8s gave the infrastructure a type system
-        - similar to dynamic programming different with static programming languages.
-        - the CRD is what separated it out from all the systems.
-    - minimalism
-        - Do your work at the best level.
-    - separation of states
-        - LB - apps - databases
-        - to just separate the state from the application and upgrade life cycle is easier than.
-    - k8s is it going away?
-        - mesos didn’t know if it was going away.
-        - k8s has a lot of problems, but later on, we might find something which makes easier and builds something new on top.
-        - if 10, 20 years goes by, if we are still doing the same thing, that would be not good as that means no progress.
-        - someone somewhere is trying to replace this
-            - but it needs to be better.
-        - Apache2 vs nginx.
-          - Lineage will continue, don’t be afraid, embrace it.
-        - AI to be used together to successfully integrate with your workflow.
-          - but AI to replace everything? Maybe not as of now.
+- How did everything start?
+    - best answer is luck.
+    - was working since k8s was public with coreos being there.
+- Why k8s started off?
+    - MSFT betting big on it, when brendan joined.
+    - and they bet on it, which was big coming from a competitor
+- People say k8s is complex, because they don’t understand it.
+    - Linux is also complex, but no one says it’s complex explicitly.
+- K8s gave the infrastructure a type system
+    - similar to dynamic programming different with static programming languages.
+  - the CRD is what separated it out from all the systems.
+- minimalism
+    - Do your work at the best level.
+- separation of states
+    - LB - apps - databases
+    - to just separate the state from the application and upgrade life cycle is easier than.
+- k8s is it going away?
+    - mesos didn’t know if it was going away.
+    - k8s has a lot of problems, but later on, we might find something which makes easier and builds something new on top.
+    - if 10, 20 years goes by, if we are still doing the same thing, that would be not good as that means no progress.
+    - someone somewhere is trying to replace this
+        - but it needs to be better.
+- Apache2 vs nginx.
+    - Lineage will continue, don’t be afraid, embrace it.
+- AI to be used together to successfully integrate with your workflow.
+    - but AI to replace everything? Maybe not as of now.
 
 ## Open Cluster Management
 
@@ -100,10 +100,10 @@ Some notes on a discussion with someone I had over at the conference about OCM [
 
 open cluster management
 
-    - can be used to deploy dependencies to the child clusters from the management cluster.
+- can be used to deploy dependencies to the child clusters from the management cluster.
     - there’s an agent running on the child cluster which talks to the management cluster’s API server.
     - There’s a CRD for managing the cluster information present in the child cluster.
-        - but it doesn’t mostly show up the machine pools which you have in the child clusters all the way to the cluster CRD which is there for the child cluster in the management cluster.
+    - but it doesn’t mostly show up the machine pools which you have in the child clusters all the way to the cluster CRD which is there for the child cluster in the management cluster.
         - Is a cncf project which is backed by redhat.
 
 
@@ -113,13 +113,12 @@ Last, but not the least, I was able to present my presentation [" How to make po
 
 The excerpt of the talk.
 
-```
+
 New Relic operates tens of thousands of nodes across hundreds of Kubernetes clusters. Pod assignment to these thousands of nodes is done every day, as applications get deployed. I'll share our experience in abstracting out the Kubernetes scheduling primitives from users, discuss their limitations and describe the solution. I'll cover:
 * the complexity for end user, in specifying scheduling rules to Kubernetes at scale.
 * how we built a scheduling engine by extending Kubernetes via mutating admission webhooks, to translate declarative requirements by user into native Kubernetes scheduling constraints.
 * tradeoffs made in the system.
 After this talk, attendees will be better prepared to deal with the complexity of extending Kubernetes, to abstract pod assignment to nodes, especially at scale, for end users.
-```
 
 Here are the slides and the recording if you would like to go through them.
 
