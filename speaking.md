@@ -17,7 +17,7 @@ title: Speaking
 
 #### 2020
 
-- ["TDD: An Experience report", Bangalore Ruby meetup, India, 2020](#devconfindia2019)
+- ["TDD: An Experience report", Bangalore Ruby meetup, India, 2020](#rubymeetupbangalore2020)
 
 #### 2019
 
@@ -52,7 +52,7 @@ title: Speaking
 <script async class="speakerdeck-embed" data-id="5c166502e7e0418dad72eb6c65849ca0" data-ratio="1.77725118483412" src="//speakerdeck.com/assets/embed.js"></script>
 
 
-### <a name="devconfindia2019"/>[TDD: An Experience report, Bangalore Ruby meetup, India, 2020](https://hasgeek.com/rootconf/2019-hyderabad/proposals/achieving-repeatable-extensible-and-self-serve-inf-UdSWH47A4gLHpjJbvcnu9M)
+### <a name="rubymeetupbangalore2020"/>[TDD: An Experience report, Bangalore Ruby meetup, India, 2020](https://www.airmeet.com/e/d3021470-2e12-11eb-9d2e-9bc52c66b921)
 
 - **Meetup schedule**: [Bangalore Ruby meetup](https://www.airmeet.com/e/d3021470-2e12-11eb-9d2e-9bc52c66b921)
 
