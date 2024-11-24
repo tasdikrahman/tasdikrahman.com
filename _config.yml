@@ -6,7 +6,7 @@ highlighter:      rouge
 
 # Permalinks
 permalink:        pretty
-# relative_permalinks: true         ## removed from jekyll 3 and above 
+# relative_permalinks: true         ## removed from jekyll 3 and above
 ## refer: https://jekyllrb.com/docs/upgrading/2-to-3/#relative-permalink-support-removed
 ## refer: https://help.github.com/articles/using-jekyll-with-pages/#troubleshooting
 
@@ -24,6 +24,9 @@ author:
   url:            https://plus.google.com/+TasdikRahman
 
 paginate:         5
+
+include:
+  - ".well-known"
 
 disqus_shortname: tasdikrahman
 
