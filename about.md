@@ -11,7 +11,7 @@ I enjoy [bouldering](https://en.wikipedia.org/wiki/Bouldering), dancing Salsa, r
 
 A list of public talks given by me, can be found [here](https://www.tasdikrahman.com/speaking/).
 
-<center><img src="/content/images/dp-april-2025"></center>
+<center><img src="/content/images/dp-april-2025.jpg"></center>
 
 #### Presently
 
