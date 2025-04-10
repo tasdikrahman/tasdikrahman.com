@@ -7,6 +7,11 @@ title: Speaking
 
 <!--## <a name="index"/>Index-->
 
+#### 2025
+
+- ["Resilient Multi-Cloud Strategies: Harnessing Kubernetes, Cluster API, and Cell-Based architecture", KubeCon EU, London 2025](#kubeconEUlondon2025)
+
+
 #### 2024
 
 - ["How to make pod assignment to thousands of nodes every day easier", ContainerDays, Hamburg 2024](#containerdayshamburg2024)
@@ -37,6 +42,13 @@ title: Speaking
 #### 2016
 
 - ["Demystifying how imports work in python", ChennaiPy October 2016](#how-imports-word-chennaipy)
+
+
+### <a name="kubeconEUlondon2025"/>[Resilient Multi-Cloud Strategies: Harnessing Kubernetes, ClusterAPI and Cell-Based architecture](https://kccnceu2025.sched.com/event/1txDE/resilient-multi-cloud-strategies-harnessing-kubernetes-cluster-api-and-cell-based-architecture-tasdik-rahman-javi-mosquera-new-relic)
+
+- **Conference Schedule**: [KubeCon EU, 2025 London](https://kccnceu2025.sched.com/event/1txDE/resilient-multi-cloud-strategies-harnessing-kubernetes-cluster-api-and-cell-based-architecture-tasdik-rahman-javi-mosquera-new-relic)
+
+<iframe class="speakerdeck-iframe" style="border: 0px; background: rgba(0, 0, 0, 0.1) padding-box; margin: 0px; padding: 0px; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 40px; width: 100%; height: auto; --darkreader-inline-border-top: currentcolor; --darkreader-inline-border-right: currentcolor; --darkreader-inline-border-bottom: currentcolor; --darkreader-inline-border-left: currentcolor; --darkreader-inline-bgcolor: var(--darkreader-background-0000001a, rgba(0, 0, 0, 0.1)); --darkreader-inline-bgimage: none; --darkreader-inline-boxshadow: var(--darkreader-background-00000033, rgba(0, 0, 0, 0.2)) 0px 5px 40px; aspect-ratio: 560 / 315;" frameborder="0" src="https://speakerdeck.com/player/353687d1b5e84e6494945dcfa74816e3?slide=2" title="Resilient Multi-Cloud Strategies: Harnessing Kubernetes, Cluster API and Cell-Based Architecture" allowfullscreen="true" data-darkreader-inline-border-top="" data-darkreader-inline-border-right="" data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="" data-darkreader-inline-bgcolor="" data-darkreader-inline-bgimage="" data-darkreader-inline-boxshadow="" data-ratio="1.7777777777777777"></iframe>
 
 ### <a name="containerdayshamburg2024"/>[How to make pod assignment to thousands of nodes every day easier](https://www.containerdays.io/containerdays-conference-2024/agenda/)
 
