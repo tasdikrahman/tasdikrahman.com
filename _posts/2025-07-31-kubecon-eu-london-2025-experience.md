@@ -40,10 +40,14 @@ I had the opportunity to present my talk at KubeCon EU 2025: "Resilient Multi-Cl
 
 <iframe class="speakerdeck-iframe" style="border: 0px; background: rgba(0, 0, 0, 0.1) padding-box; margin: 0px; padding: 0px; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 40px; width: 100%; height: auto; aspect-ratio: 560 / 315;" frameborder="0" src="https://speakerdeck.com/player/353687d1b5e84e6494945dcfa74816e3?slide=2" title="Resilient Multi-Cloud Strategies: Harnessing Kubernetes, Cluster API and Cell-Based Architecture" allowfullscreen="true"></iframe>
 
-Here are the slides and the recording if you would like to go through them.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4DjydLH21nM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Here are the slides and the recording links.
 
 - [SpeakerDeck slides](https://speakerdeck.com/tasdikrahman/resilient-multi-cloud-strategies-harnessing-kubernetes-cluster-api-and-cell-based-architecture)
 - [YouTube recording](https://www.youtube.com/watch?v=4DjydLH21nM)
+
 
 Here are a couple of pictures from the conference:
 
