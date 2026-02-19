@@ -40,5 +40,5 @@ I will probably write another post on my current and past AI workflows. As of no
 
 For reference, here's the
 - First PR which does the migration https://github.com/tasdikrahman/tasdikrahman.com/pull/1
-- and the PR which removes all the old jekyll file formats https://github.com/tasdikrahman/tasdikrahman.com/pull/1
+- and the PR which removes all the old jekyll file formats https://github.com/tasdikrahman/tasdikrahman.com/pull/2
 - and the first hugo blog deployment of my website https://github.com/tasdikrahman/tasdikrahman.com/actions/runs/22202652165
