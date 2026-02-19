@@ -70,18 +70,18 @@ summary: "Talks and presentations by Tasdik Rahman"
 
 <script async class="speakerdeck-embed" data-id="555c8060a79d40bfbf5f20aec35771ae" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
 
-### <a name="#rootconfhyderabadindia2019"/>[Achieving repeatable, extensible and self serve infrastructure, Rootconf Hyderabad, India, 2019](https://hasgeek.com/rootconf/2019-hyderabad/proposals/achieving-repeatable-extensible-and-self-serve-inf-UdSWH47A4gLHpjJbvcnu9M)
+### <a name="rootconfhyderabadindia2019"/>[Achieving repeatable, extensible and self serve infrastructure, Rootconf Hyderabad, India, 2019](https://hasgeek.com/rootconf/2019-hyderabad/proposals/achieving-repeatable-extensible-and-self-serve-inf-UdSWH47A4gLHpjJbvcnu9M)
 
 - **Conference schedule**: [Rootconf Hyderabad, 2019](https://hasgeek.com/rootconf/2019-hyderabad/proposals/achieving-repeatable-extensible-and-self-serve-inf-UdSWH47A4gLHpjJbvcnu9M)
 - **Youtube talk link**: [https://www.youtube.com/watch?v=mE1JZKMhnNs](https://www.youtube.com/watch?v=mE1JZKMhnNs)
 
 <script async class="speakerdeck-embed" data-id="907c7c72cdf74e249ae0babd95856bbd" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
 
-### <a name="#devopsdaysindia2019"/>[Enabling Canary deployments in k8s, DevopsDaysIndia, 2019 (Lightening talk)](https://speakerdeck.com/tasdikrahman/ways-of-enabling-canary-deployments-in-kubernetes)
+### <a name="devopsdaysindia2019"/>[Enabling Canary deployments in k8s, DevopsDaysIndia, 2019 (Lightening talk)](https://speakerdeck.com/tasdikrahman/ways-of-enabling-canary-deployments-in-kubernetes)
 
 <script async class="speakerdeck-embed" data-id="0b063af43dd54ea794077749a347b58e" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
 
-### <a name="#devconfindia2019"/>[Kingsly - The Cert Manager](https://devconfin19.sched.com/event/RVQW/kingsly-the-cert-manager)
+### <a name="devconfindia2019"/>[Kingsly - The Cert Manager](https://devconfin19.sched.com/event/RVQW/kingsly-the-cert-manager)
 
 <script async class="speakerdeck-embed" data-id="3e0b36f62907438094dde34369646e50" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
 
@@ -89,7 +89,7 @@ summary: "Talks and presentations by Tasdik Rahman"
 - **Github** [https://github.com/gojekfarm/kingsly](https://github.com/gojekfarm/kingsly)
 - **OSS Release blog post** [https://blog.gojekengineering.com/introducing-kingsly-the-cert-manager-ced40746aa65](https://blog.gojekengineering.com/introducing-kingsly-the-cert-manager-ced40746aa65)
 
-### <a name="#devopsdaysindia-2018"/>[Kuberception: Self hosting kubernetes](https://speakerdeck.com/tasdikrahman/kuberception-self-hosting-kubernetes)
+### <a name="devopsdaysindia-2018"/>[Kuberception: Self hosting kubernetes](https://speakerdeck.com/tasdikrahman/kuberception-self-hosting-kubernetes)
 
 <script async class="speakerdeck-embed" data-id="40484a078640415a872c2857fd7aaf89" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
 
@@ -97,14 +97,14 @@ summary: "Talks and presentations by Tasdik Rahman"
 
 - **Code snippets used during the talk:** [https://github.com/tasdikrahman/infra](https://github.com/tasdikrahman/infra)
 
-### <a name="#pycontaiwan-deep-dive-imports"/>[Diving deep on how imports work in Python](https://speakerdeck.com/tasdikrahman/diving-deep-on-how-imports-work-in-python)
+### <a name="pycontaiwan-deep-dive-imports"/>[Diving deep on how imports work in Python](https://speakerdeck.com/tasdikrahman/diving-deep-on-how-imports-work-in-python)
 
 <script async class="speakerdeck-embed" data-id="cf622908ec8641ef88ab5c775592812a" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
 
 - **Youtube talk link**: [https://www.youtube.com/watch?v=_Yif7EEOCy8&index=19&list=PLqtzN042Qpffip6u4_WUTRXxFZDgdgrPV](https://www.youtube.com/watch?v=_Yif7EEOCy8&index=19&list=PLqtzN042Qpffip6u4_WUTRXxFZDgdgrPV)
 - **PyCon Taiwan talk scehdule**: [https://tw.pycon.org/2017/en-us/events/talk/342865744498786414/](https://tw.pycon.org/2017/en-us/events/talk/342865744498786414/)
 
-### <a name="how-imports-word-chennaipy"/>[Demystifying how imports work in Python](http://http://speakerdeck.com/tasdikrahman/demystifying-how-imports-work-in-python/)
+### <a name="how-imports-word-chennaipy"/>[Demystifying how imports work in Python](https://speakerdeck.com/tasdikrahman/demystifying-how-imports-work-in-python/)
 
 <script async class="speakerdeck-embed" data-id="df1b0dd2c89b44678015f3565c876881" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
 

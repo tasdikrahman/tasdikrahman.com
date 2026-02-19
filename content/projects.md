@@ -134,7 +134,7 @@ An analysis of the `movie_reviews` corpus present in the `nltk` corpus by applyi
 
 ***
 
-### <a name="vocabulary"/>[vocabulary](../vocabulary)
+### <a name="vocabulary"/>[vocabulary](https://github.com/tasdikrahman/vocabulary)
 
 
 <iframe src="https://ghbtns.com/github-btn.html?user=tasdikrahman&repo=vocabulary&type=star&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=tasdikrahman&repo=vocabulary&type=watch&count=true&v=2" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=tasdikrahman&repo=vocabulary&type=fork&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe>
@@ -329,13 +329,13 @@ the guidelines layed out by OWASP.
 
 ***
 
-### <a name="xkcddl"/>[xkcd-dl](../xkcd_dl)
+### <a name="xkcddl"/>[xkcd-dl](https://github.com/tasdikrahman/xkcd-dl)
 
 
 <iframe src="https://ghbtns.com/github-btn.html?user=tasdikrahman&repo=xkcd-dl&type=star&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=tasdikrahman&repo=xkcd-dl&type=watch&count=true&v=2" frameborder="0" scrolling="0" width="200px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=tasdikrahman&repo=xkcd-dl&type=fork&count=true" frameborder="0" scrolling="0" width="200px" height="20px"></iframe>
 
 
-[![Usage](https://raw.githubusercontent.com/tasdikrahman/xkcd-dl/master/assets/usage.gif)](../xkcd_dl)
+[![Usage](https://raw.githubusercontent.com/tasdikrahman/xkcd-dl/master/assets/usage.gif)](https://github.com/tasdikrahman/xkcd-dl)
 
 A command line application to **download all xkcd's** which have been uploaded till date. Ever!
 
