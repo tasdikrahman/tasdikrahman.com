@@ -3,8 +3,7 @@ title: "Running Cluster API MachineDeployments and MachinePools Across Providers
 description: "Experiences with Cluster API MachineDeployments and MachinePools for Azure and AWS"
 tags: [cluster-api, kubernetes, azure, aws]
 comments: true
-share: true
-cover_image: ''
+draft: true
 ---
 
 # My Experience with Cluster API MachineDeployments and MachinePools
