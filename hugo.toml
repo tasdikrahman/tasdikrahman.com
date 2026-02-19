@@ -1,0 +1,77 @@
+baseURL = "https://www.tasdikrahman.com/"
+languageCode = "en-us"
+title = "Tasdik Rahman"
+paginate = 5
+theme = "PaperMod"
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[params]
+  description = "tail -f /var/log/life*"
+  author = "Tasdik Rahman"
+  disqusShortname = "tasdikrahman"
+  ShowReadingTime = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowShareButtons = false
+
+[params.homeInfoParams]
+  Title = "Tasdik Rahman"
+  Content = "tail -f /var/log/life*"
+
+[[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/tasdikrahman"
+
+[[params.socialIcons]]
+  name = "twitter"
+  url = "https://twitter.com/tasdikrahman"
+
+[taxonomies]
+  tag = "tags"
+
+[permalinks]
+  posts = "/:year/:month/:day/:slug/"
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[frontmatter]
+  date = [":filename", ":default"]
+
+[[menu.main]]
+  name = "About"
+  url = "/about/"
+  weight = 10
+
+[[menu.main]]
+  name = "Speaking"
+  url = "/speaking/"
+  weight = 15
+
+[[menu.main]]
+  name = "Archive"
+  url = "/archives/"
+  weight = 20
+
+[[menu.main]]
+  name = "Projects"
+  url = "/projects/"
+  weight = 30
+
+[[menu.main]]
+  name = "Resume"
+  url = "/resume/"
+  weight = 40
+
+[[menu.main]]
+  name = "Tags"
+  url = "/tags/"
+  weight = 50
+
+[[menu.main]]
+  name = "Search"
+  url = "/search/"
+  weight = 60
