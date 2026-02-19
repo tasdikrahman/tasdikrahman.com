@@ -19,6 +19,8 @@ To be honest I'm very impressed. I started about an hour and a half or somewhere
 
 ## What was done
 
+Note: Used AI to summarise this section of the blog
+
 - Migrated from Jekyll 3.8.5 (via the `github-pages` gem) to Hugo v0.156.0 with the PaperMod theme, dropping the entire Ruby/Bundler dependency chain
 - Scaffolded Hugo in-place using `hugo new site . --force` alongside existing Jekyll files, allowing incremental migration without losing history
 - Added PaperMod as a git submodule, pinned to a version requiring Hugo >= 0.146.0
