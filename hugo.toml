@@ -29,6 +29,10 @@ theme = "PaperMod"
   name = "twitter"
   url = "https://twitter.com/tasdikrahman"
 
+[[params.socialIcons]]
+  name = "linkedin"
+  url = "https://www.linkedin.com/in/tasdikrahman"
+
 [taxonomies]
   tag = "tags"
 
