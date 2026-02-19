@@ -42,11 +42,6 @@ theme = "PaperMod"
   date = [":filename", ":default"]
 
 [[menu.main]]
-  name = "Search"
-  url = "/search/"
-  weight = 5
-
-[[menu.main]]
   name = "About"
   url = "/about/"
   weight = 10
@@ -75,3 +70,8 @@ theme = "PaperMod"
   name = "Tags"
   url = "/tags/"
   weight = 50
+
+[[menu.main]]
+  name = "Search"
+  url = "/search/"
+  weight = 60
