@@ -6,9 +6,9 @@ This site is a partial collection of projects I've worked on, stories I've writt
 
 A generalist developer, with a focus on the infrastructure side of things.
 
-I enjoy [bouldering](https://en.wikipedia.org/wiki/Bouldering), dancing Salsa, reading books and heading over to [Union FC's](https://www.fc-union-berlin.de/en/) football matches regularly. [Backpacking](https://www.tasdikrahman.com/blog/tag/backpacking/) is something which I am very fond.
+I enjoy [bouldering](https://en.wikipedia.org/wiki/Bouldering), dancing Salsa, reading books and heading over to [Union FC's](https://www.fc-union-berlin.de/en/) football matches regularly. [Backpacking](/blog/tag/backpacking/) is something which I am very fond.
 
-A list of public talks given by me, can be found [here](https://www.tasdikrahman.com/speaking/).
+A list of public talks given by me, can be found [here](/speaking/).
 
 <center><img src="/content/images/dp-april-2025.jpg"></center>
 
