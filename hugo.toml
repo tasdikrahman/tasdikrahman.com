@@ -52,6 +52,11 @@ theme = "PaperMod"
   weight = 10
 
 [[menu.main]]
+  name = "Speaking"
+  url = "/speaking/"
+  weight = 15
+
+[[menu.main]]
   name = "Archive"
   url = "/archives/"
   weight = 20
