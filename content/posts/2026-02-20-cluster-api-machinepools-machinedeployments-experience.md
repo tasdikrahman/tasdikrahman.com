@@ -6,7 +6,7 @@ comments: true
 draft: false
 ---
 
-I have been managing infrastructure and organisations of different shapes and sizes since early 2017. The toolset has really evolved over time, and different solutions have been developed by organisations along the way. Starting out, I saw a number of places calling cloud provider APIs directly and building CLI tooling on top of them.
+I have been managing infrastructure in organisations of different shapes and sizes since early 2017. Right from early startups, to pre-IPO organisations to large scale enterprises. The toolset has really evolved over time, and different solutions have been developed by organisations along the way. Starting out, I saw a number of places calling cloud provider APIs directly and building CLI tooling on top of them.
 
 ## Background: Infrastructure management with Terraform
 
@@ -14,14 +14,14 @@ HashiCorp really gained market share here with Terraform. AWS also had CloudForm
 
 Terraform works beautifully if you want a DSL to manage infrastructure across different cloud providers with a module-based approach. There are also tools like Terragrunt that make life easier. I am a big fan of Terraform — I have written and open-sourced some modules over the years, nothing super complicated, but things I have seen people end up using.
 
-Here's ac couple of them I created long back as just a way to learn how to write terraform modules 
+Here's ac couple of them I created long back as just a way to learn how to write terraform modules
 - [https://github.com/tasdikrahman/terraform-google-network-subnet](https://github.com/tasdikrahman/terraform-google-network-subnet) GCP : for creation of subnet inside a VPC network.
-- [https://github.com/tasdikrahman/terraform-google-network](https://github.com/tasdikrahman/terraform-google-network) GCP : for creation of VPC network 
-- [https://github.com/tasdikrahman/terraform-google-network-firewall](https://github.com/tasdikrahman/terraform-google-network-firewall) - GCP : for creation of firewall rules inside the VPC 
+- [https://github.com/tasdikrahman/terraform-google-network](https://github.com/tasdikrahman/terraform-google-network) GCP : for creation of VPC network
+- [https://github.com/tasdikrahman/terraform-google-network-firewall](https://github.com/tasdikrahman/terraform-google-network-firewall) - GCP : for creation of firewall rules inside the VPC
 
 A couple of GCP examples for terraform [https://github.com/tasdikrahman/terraform-gcp-examples](https://github.com/tasdikrahman/terraform-gcp-examples), while I was playing around with terraform
 
-There are a couple of limitations, however, that surface quite heavily once you have a large sprawl of infrastructure. If I talk specifically about Kubernetes clusters, once you have anywhere beyond 10 clusters — or more — you start noticing these drawbacks immediately. 
+There are a couple of limitations, however, that surface quite heavily once you have a large sprawl of infrastructure. If I talk specifically about Kubernetes clusters, once you have anywhere beyond 10 clusters — or more — you start noticing these drawbacks immediately.
 
 The first is that when your infrastructure state drifts — which happens quite often — it is very hard to know upfront. Someone has to manually run a `terraform plan` to see what has changed. Second, if you are trying to do Kubernetes cluster upgrades (assuming you are using managed Kubernetes releases and nothing custom out of the box), those `terraform plan` and `terraform apply` runs have to wait for the cluster to finish upgrading. The same applies to managed nodes. Your upgrades are effectively serialised and tied to a Terraform run with someone watching over it.
 
