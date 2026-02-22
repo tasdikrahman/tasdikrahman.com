@@ -54,6 +54,8 @@ Because both MachineDeployments and MachinePools are backed by Kubernetes APIs, 
 
 The other significant benefit: if you are running clusters across multiple cloud providers, your upgrade automation and Day 2 operational patterns can be very similar regardless of provider, because you are always talking to the same Kubernetes API surface. The biggest win overall is the time saved on those Day 2 operations — upgrades, node rotation, scaling — all driven through Kubernetes APIs rather than bespoke tooling.
 
+The installation of cluster-api and it's provider is also simplified with the project of [cluster-api-operator](https://github.com/kubernetes-sigs/cluster-api-operator).
+
 It is also worth mentioning the [Gardener project](https://gardener.cloud/), which is not a Kubernetes SIG project but takes a very similar approach — managing your Kubernetes infrastructure through Kubernetes APIs. I have not used it personally, but the convergence of ideas is clear: in both Cluster API and Gardener, you are managing Kubernetes infrastructure as Kubernetes API objects at the end of the day.
 
 ## When to use Cluster API — and when not to
