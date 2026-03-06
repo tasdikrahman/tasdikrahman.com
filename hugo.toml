@@ -33,6 +33,10 @@ theme = "PaperMod"
   name = "linkedin"
   url = "https://www.linkedin.com/in/tasdikrahman"
 
+[[params.socialIcons]]
+  name = "rss"
+  url = "/index.xml"
+
 [taxonomies]
   tag = "tags"
 
