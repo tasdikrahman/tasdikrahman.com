@@ -7,6 +7,8 @@ share: true
 cover_image: ''
 ---
 
+**Note:** [Claude Code](https://claude.ai/code) was used to help format the post structure, prose, and create the Mermaid diagrams in this post.
+
 Having used Karpenter for the last couple of years, I wanted to share a few tidbits and thoughts on how Karpenter itself has evolved.
 
 Without trying to repeat the docs too much, Karpenter is an autoscaler which focuses primarily on cost efficiency and efficient bin packing. It tries to satisfy the requests of your containers deployed in a cluster by fitting the cheapest and most cost-effective nodes to satisfy your applications' requirements.
