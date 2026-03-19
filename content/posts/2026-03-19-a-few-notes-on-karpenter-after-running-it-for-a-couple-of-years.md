@@ -200,6 +200,24 @@ flowchart TD
     style H_B2 fill:#fff,stroke:#e53935,color:#333
 </pre>
 
+## Spot pools/On-demand/Reserved instance mix
+
+In the same node pool configuration, you can specify, the configuration to use either spot pools, on-demand nodes or reserved instances, allowing karpenter the flexibility to choose between the instances which would come the cheapest in that given moment of cluster requirements.
+
+## consolidationPolicy: WhenEmpty vs WhenEmptyOrUnderutilized
+
+The `consolidationPolicy` field controls which nodes Karpenter considers for consolidation.
+- With `WhenEmpty`, Karpenter will only consolidate nodes that have no workload pods running on them — it will not touch a node that still has pods, even if it is underutilised.
+- With `WhenEmptyOrUnderutilized`, Karpenter goes further and will also consider replacing underutilised nodes with cheaper or smaller ones, even if they still have pods running on them, by rescheduling those pods elsewhere. This is what allows karpenter to fully play with the workloads in the cluster, allowing for optimising further for cost. The caveat here is that the workloads need to be ready to be disrupted and have mature PDB budgets described.
+
+## Node expiry with `expireAfter`
+
+Node refresh is made easy with Karpenter with the `expireAfter` config here, you can set it to for example `720h` (30days) and karpenter will gracefully drain and replace nodes that have been running that long. Allowing for the newer nodes to come up with the newer configuration, if there was a fix added in the underlying operating system being used.
+
+## Specifying the node operating system
+
+Another really neat feature in Karpenter is that you can easily specify the [`amiFamily`](https://karpenter.sh/v1.0/concepts/nodeclasses/#specamifamily) for the node. Imagine doing a node rotation to move away from `AL2` to `AL2023` — all you would need to do is change the `amiFamily` in the `EC2NodeClass` and Karpenter will drift the nodes which have the older AMI family reference, draining them and bringing up new nodes with `AL2023` present. Now imagine having to do the same across a fleet of machine pools.
+
 ## The `karpenter.sh/do-not-disrupt` annotation
 
 Another useful automation is injecting the `karpenter.sh/do-not-disrupt` annotation on workloads like batch jobs, which are sensitive to restarts. You would not want Karpenter to disrupt the node where such a workload is running.
@@ -264,7 +282,7 @@ Karpenter also respects pod disruption budgets specified for applications. If di
 
 **Azure:** At this point in time, the Karpenter provider for Azure is only available when using AKS, the managed Kubernetes service. If you are self-managing Kubernetes clusters on Azure — for example with a kubeadm-based setup — Karpenter would not work for you there. I had opened [an issue](https://github.com/Azure/karpenter-provider-azure/issues/323) to check on the support for this.
 
-**Cluster API:** There is also an upcoming project https://github.com/kubernetes-sigs/karpenter-provider-cluster-api — the Cluster API provider for Karpenter — which is still early but would be an option for running Karpenter on self-managed Kubernetes clusters and using karpenter as the autoscaler for CAPI. 
+**Cluster API:** There is also an upcoming project — [karpenter-provider-cluster-api](https://github.com/kubernetes-sigs/karpenter-provider-cluster-api) — which is still early but would be an option for running Karpenter on self-managed Kubernetes clusters and using Karpenter as the autoscaler for CAPI.
 
 ## All in all
 
