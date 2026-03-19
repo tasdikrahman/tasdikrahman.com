@@ -143,9 +143,17 @@ flowchart LR
     style AB  fill:#fff,stroke:#43a047,color:#333
 </pre>
 
+## Spot pools/On-demand/Reserved instance mix
+
+In the same node pool configuration, you can specify the configuration to use either spot pools, on-demand nodes or reserved instances, allowing Karpenter the flexibility to choose between the instances which would come the cheapest in that given moment of cluster requirements.
+
+## Specifying the node operating system
+
+Another really neat feature in Karpenter is that you can easily specify the [`amiFamily`](https://karpenter.sh/v1.0/concepts/nodeclasses/#specamifamily) for the node. Imagine doing a node rotation to move away from `AL2` to `AL2023` — all you would need to do is change the `amiFamily` in the `EC2NodeClass` and Karpenter will drift the nodes which have the older AMI family reference, draining them and bringing up new nodes with `AL2023` present. Now imagine having to do the same across a fleet of machine pools.
+
 ## Node disruption budgets
 
-From v1.0 onwards, Karpenter introduced the concept of node disruption budgets. The default is 10%, and this is now configurable at the node pool level based on how much disruption you want to tolerate. You could tshirt size your karpenter pools for example, based on the disruption budget for each pool that you require.
+From v1.0 onwards, Karpenter introduced the concept of node disruption budgets. The default is 10%, and this is now configurable at the node pool level based on how much disruption you want to tolerate. You could t-shirt size your Karpenter pools for example, based on the disruption budget for each pool that you require.
 
 <pre class="mermaid">
 flowchart TD
@@ -200,23 +208,23 @@ flowchart TD
     style H_B2 fill:#fff,stroke:#e53935,color:#333
 </pre>
 
-## Spot pools/On-demand/Reserved instance mix
-
-In the same node pool configuration, you can specify, the configuration to use either spot pools, on-demand nodes or reserved instances, allowing karpenter the flexibility to choose between the instances which would come the cheapest in that given moment of cluster requirements.
-
 ## consolidationPolicy: WhenEmpty vs WhenEmptyOrUnderutilized
 
 The `consolidationPolicy` field controls which nodes Karpenter considers for consolidation.
 - With `WhenEmpty`, Karpenter will only consolidate nodes that have no workload pods running on them — it will not touch a node that still has pods, even if it is underutilised.
-- With `WhenEmptyOrUnderutilized`, Karpenter goes further and will also consider replacing underutilised nodes with cheaper or smaller ones, even if they still have pods running on them, by rescheduling those pods elsewhere. This is what allows karpenter to fully play with the workloads in the cluster, allowing for optimising further for cost. The caveat here is that the workloads need to be ready to be disrupted and have mature PDB budgets described.
+- With `WhenEmptyOrUnderutilized`, Karpenter goes further and will also consider replacing underutilised nodes with cheaper or smaller ones, even if they still have pods running on them, by rescheduling those pods elsewhere. This is what allows Karpenter to fully play with the workloads in the cluster, allowing for optimising further for cost. The caveat here is that the workloads need to be ready to be disrupted and have mature PDB budgets described.
 
 ## Node expiry with `expireAfter`
 
-Node refresh is made easy with Karpenter with the `expireAfter` config here, you can set it to for example `720h` (30days) and karpenter will gracefully drain and replace nodes that have been running that long. Allowing for the newer nodes to come up with the newer configuration, if there was a fix added in the underlying operating system being used.
+Node refresh is made easy with Karpenter with the `expireAfter` config here, you can set it to for example `720h` (30 days) and Karpenter will gracefully drain and replace nodes that have been running that long. Allowing for the newer nodes to come up with the newer configuration, if there was a fix added in the underlying operating system being used.
 
-## Specifying the node operating system
+## Single node pool vs. multiple node pools
 
-Another really neat feature in Karpenter is that you can easily specify the [`amiFamily`](https://karpenter.sh/v1.0/concepts/nodeclasses/#specamifamily) for the node. Imagine doing a node rotation to move away from `AL2` to `AL2023` — all you would need to do is change the `amiFamily` in the `EC2NodeClass` and Karpenter will drift the nodes which have the older AMI family reference, draining them and bringing up new nodes with `AL2023` present. Now imagine having to do the same across a fleet of machine pools.
+Another common question is whether to have multiple Karpenter node pools or a single large one. There are pros and cons to both approaches.
+
+Multiple node pools give you the flexibility to have different disruption budget knobs — different t-shirt sizes, if you will. For example, one node pool with a 5% disruption budget, the default at 10%, and others at 20% or even 30%. There are obviously other configuration knobs inside the node pool beyond disruption budgets, but you get the general idea.
+
+That said, with segregation of workloads into different node pools, bin packing efficiency is not fully utilised. If instead you had one single large node pool where all Karpenter-targeting workloads would go, you would get the maximum bin packing efficiency out of Karpenter across all of them.
 
 ## The `karpenter.sh/do-not-disrupt` annotation
 
@@ -263,16 +271,6 @@ spec:
 With this annotation on the pod, Karpenter will not drain the node this job lands on for the duration of its run, ensuring the job completes without being interrupted.
 
 Using this annotation thoughtfully is essential for Karpenter to function normally in a cluster. Imagine a cluster where a large number of workloads have this annotation set — Karpenter would simply not be able to disrupt any of those nodes, leading to no drain operations and ultimately defeating the purpose of having Karpenter as the autoscaler in the first place.
-
-## Single node pool vs. multiple node pools
-
-Another common question is whether to have multiple Karpenter node pools or a single large one. There are pros and cons to both approaches.
-
-Multiple node pools give you the flexibility to have different disruption budget knobs — different t-shirt sizes, if you will. For example, one node pool with a 5% disruption budget, the default at 10%, and others at 20% or even 30%. There are obviously other configuration knobs inside the node pool beyond disruption budgets, but you get the general idea.
-
-That said, with segregation of workloads into different node pools, bin packing efficiency is not fully utilised. If instead you had one single large node pool where all Karpenter-targeting workloads would go, you would get the maximum bin packing efficiency out of Karpenter across all of them.
-
-## Pod Disruption Budgets
 
 Karpenter also respects pod disruption budgets specified for applications. If disrupting a node would violate a workload's PDB, Karpenter will not disrupt it.
 
