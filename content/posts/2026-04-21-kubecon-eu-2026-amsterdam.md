@@ -7,8 +7,6 @@ categories: ["conferences"]
 description: "Notes from KubeCon EU 2026 in Amsterdam, covering talks on cluster migrations, CAPI, OpenTelemetry, Prometheus 3.0, and more."
 ---
 
-# KubeCon EU 2026 - Amsterdam
-
 A few weeks ago, I attended KubeCon EU in Amsterdam in person. This was my third KubeCon EU in succession from the last few years, the first one being, KubeCon Paris, then KubeCon London.
 
 This time. We had around 13,000 attendees meeting in person.
