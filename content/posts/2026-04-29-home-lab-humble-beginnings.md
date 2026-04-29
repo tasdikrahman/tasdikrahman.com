@@ -9,7 +9,7 @@ description: "A walkthrough of my home server setup — hardware, NixOS, service
 
 ## How It Started
 
-A bit back, around 2020, I started hosting a small pi hole setup for DNS-based ad filtering. That was one of the setups which I had running for a bit longer before that, around 2017, when I had a DigitalOcean server where I would be running my own k8s cluster. I was using this k8s distribution called Typhoon, but it didn't really end up installing applications which I was using on a daily level.
+A bit back, around 2020, I started hosting a small [Pi-hole](https://pi-hole.net) setup for DNS-based ad filtering. That was one of the setups which I had running for a bit longer before that, around 2017, when I had a DigitalOcean server where I would be running my own k8s cluster. I was using this k8s distribution called Typhoon, but it didn't really end up installing applications which I was using on a daily level.
 
 A couple of my friends have their own home servers, and they were chatting about it for a bit. This was also an idea in the back of my head for some time, not to host something very serious, which would be mission critical for me to run, but in general just some small applications which I would try migrating off from which I use on a regular basis, and also something which I would want more control over.
 
@@ -29,7 +29,7 @@ Here's what it looks like
 
 ## Why NixOS
 
-I have installed NixOS on my machine, and this is the first time I'm playing around with NixOS. To be honest, I really like the style of setup, with configuration being first-class and everything following from there.
+I have installed [NixOS](https://nixos.org) on my machine, and this is the first time I'm playing around with NixOS. To be honest, I really like the style of setup, with configuration being first-class and everything following from there.
 
 This brings me to the point of me thinking of comparing it with other setups which I've tried for my home setup:
 - Terraform
@@ -43,7 +43,7 @@ But overall my pick for nixos was for setup as configuration being first class i
 
 ## Getting Connected
 
-Now, connectivity to the home server was the next thing which I wanted to figure out. One thing I was sure of for now is that I didn't want to expose the home server to the internet to the internet. That opens a whole can of activities that you have to do to secure the server, and that was something which I didn't want to solve as of now. The first thing which I did after installing the bare minimum NixOS configuration was to set up tailscale on the machine and connect my personal laptop and the home server on the same network, getting ssh access solved.
+Now, connectivity to the home server was the next thing which I wanted to figure out. One thing I was sure of for now is that I didn't want to expose the home server to the internet to the internet. That opens a whole can of activities that you have to do to secure the server, and that was something which I didn't want to solve as of now. The first thing which I did after installing the bare minimum NixOS configuration was to set up [Tailscale](https://tailscale.com) on the machine and connect my personal laptop and the home server on the same network, getting ssh access solved.
 
 The next immediate thing which I ended up doing was cloning the home server configuration repo of NixOS. The other thing which I did after that was just symlinking the directory to /etc/NixOS.
 
@@ -53,11 +53,11 @@ So that took care of connectivity and configuration in general on the home serve
 
 ## What I'm Running
 
-I ended up setting a YNAB alternative called Actual Budget. After that, for identity provider and handling user accounts and issuing OIDC tokens, I installed kani DM so that multiple members would have their own login ID inside my setup, which Actual Budget would be talking over to OIDC.
+I ended up setting a YNAB alternative called [Actual Budget](https://actualbudget.org). After that, for identity provider and handling user accounts and issuing OIDC tokens, I installed [Kanidm](https://kanidm.com) so that multiple members would have their own login ID inside my setup, which Actual Budget would be talking over to OIDC.
 
 The reason why I ended up selecting my own oidc provider was because I just wanted to start using a self-hosted service for the oidc service on my home server and see how it works and just play around with it.
 
-I ended up setting Caddy server for terminating HTTPS and reverse proxying to the containers which are running on the server. Another thing which I did was having Tail scale provide the TLS certificates for the hostname itself.
+I ended up setting [Caddy](https://caddyserver.com) server for terminating HTTPS and reverse proxying to the containers which are running on the server. Another thing which I did was having Tail scale provide the TLS certificates for the hostname itself.
 
 What I did next was to expose these services on my Tailscale server on different ports. I'm just using virtual hosts, and that is the configuration which I'm using as of now. The certificate being provided by Tailscale is just being used by the virtual host also at the same time.
 
@@ -71,7 +71,7 @@ After setting up pihole, I added the home server private Tailscale endpoint to m
 
 Since this setup would only query my Pi-hole setup when the device was connected to Tailscale, I could simply turn off my Tailscale VPN configuration on the device in case my Pi-hole was not working as expected or it was down for some reason. This would ensure my DNS would still work on my client device.
 
-I recently stopped pihole and started using this service called Next DNS instead and I'll share my reasoning behind it.
+I recently stopped pihole and started using this service called [NextDNS](https://nextdns.io) instead and I'll share my reasoning behind it.
 
 Which brings me to the point that I didn't want to run immediately something which I inherently rely on for the uptime quite a lot. If you notice, the other service called Actual Budget is just a bare minimum SQLite database which it uses, not a full-on setup with Redis or Postgres. I wanted to keep it very simple to begin with so that I am not spending a lot of time in the maintenance.
 
@@ -81,13 +81,13 @@ And something like DNS was something which I was thinking of offloading to a man
 
 Now, on what things I am thinking of hosting in the future. I was thinking of having a self-hosted version of Splitwise and a task manager running on the home server, potentially something which is written in go or Rust. The reason for that would be mostly just to be able to peek under the hood and be able to understand quickly. On why these two languages, Rust, I want to start learning/reading/writing and go I write for everyday things for myself and at work.
 
-For future services, on my list to be added is paperless as for document management and potentially having an image server. For hosting my own photos, for that, I was thinking Immich. I was also mulling over the idea of running my own LLM on the server, which I can point to as a local model. For example, exploring the Gemma models from Google, but I have not yet had time to explore this more. Probably also something which I'll do after I increase the RAM, if I find it limiting when I try.
+For future services, on my list to be added is paperless as for document management and potentially having an image server. For hosting my own photos, for that, I was thinking [Immich](https://immich.app). I was also mulling over the idea of running my own LLM on the server, which I can point to as a local model. For example, exploring the Gemma models from Google, but I have not yet had time to explore this more. Probably also something which I'll do after I increase the RAM, if I find it limiting when I try.
 
 I'll share a post on how I set up actual budget with the configuration that it has, just for my own reference and also future work which I am putting on my home server.
 
 ## Backups
 
-The number one reason I was not trying to put everything on to the server immediately was because I have not yet figured out backups on this machine. Not that any of the things which I've set up as of now are generating huge amounts of data or handling huge amounts of data, but this is a problem which will obviously come. Given I wanted to take an approach of a very laid-back setup where I would not have to deal with it day in and day out, this is something which I still have to figure out, and I think I'll most likely go with restic for backups and parking it at either Backblaze or a hetzner
+The number one reason I was not trying to put everything on to the server immediately was because I have not yet figured out backups on this machine. Not that any of the things which I've set up as of now are generating huge amounts of data or handling huge amounts of data, but this is a problem which will obviously come. Given I wanted to take an approach of a very laid-back setup where I would not have to deal with it day in and day out, this is something which I still have to figure out, and I think I'll most likely go with [restic](https://restic.net) for backups and parking it at either [Backblaze](https://www.backblaze.com) or a [Hetzner](https://www.hetzner.com)
 
 I wanted to also share my nix OS configuration, which I have as of now and here's the link for it.
 
