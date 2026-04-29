@@ -9,7 +9,7 @@ description: "A walkthrough of my home server setup — hardware, NixOS, service
 
 ## How It Started
 
-A bit back, around 2020, I started hosting a small [Pi-hole](https://pi-hole.net) setup for DNS-based ad filtering. That was one of the setups which I had running for a bit longer before that, around 2017, when I had a DigitalOcean server where I would be running my own k8s cluster. I was using this k8s distribution called Typhoon, but it didn't really end up installing applications which I was using on a daily level.
+A bit back, around 2020, I started hosting a small [Pi-hole](https://pi-hole.net) setup for DNS-based ad filtering. That was one of the setups which I had running for a bit longer before that, around 2017, when I had a DigitalOcean server where I would be running my own k8s cluster. I was using this k8s distribution called [Typhoon](https://github.com/tasdikrahman/infra), but it didn't really end up installing applications which I was using on a daily level.
 
 A couple of my friends have their own home servers, and they were chatting about it for a bit. This was also an idea in the back of my head for some time, not to host something very serious, which would be mission critical for me to run, but in general just some small applications which I would try migrating off from which I use on a regular basis, and also something which I would want more control over.
 
