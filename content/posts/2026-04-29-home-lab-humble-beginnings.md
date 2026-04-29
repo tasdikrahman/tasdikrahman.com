@@ -22,11 +22,11 @@ I started looking for different machines on eBay, Kleinanzeigen. After a few day
 
 The model is a Lenovo ThinkCentre M75Q Generation 2 and comes with 8 GB of RAM and around 256 GB of space. It might seem less, but I just want to start with something rather than overthink too much about what configuration I would have wanted.
 
-I can go maximum till 64 GB with 2 into 32 GB card slots. And for storage, I could have one on the primary slot and one attached to the secondary slot. I could practically go all the way till 6 TB of NVMe storage on this machine. If required, I would always be able to attach an external drive through the USB. But again, something to figure out as I grow usage.
+I can go maximum till 64 GB with 2x32 GB card slots. And for storage, I have two slots. I could practically go all the way till 6 TB of NVMe storage on this machine. If required, I would always be able to attach an external drive through the USB. But again, something to figure out as I grow usage.
 
 Luckily, the machine came with a Wi-Fi dongle attached, so I didn't have to attach an ethernet cable, from a router sitting in a different room. I will look further into it, if there are upload/download issues later.
 
-Here's what it looks like
+Here's what it looks like.
 
 <center><img src="/content/images/2026/04/homeserver-april-2026.jpeg"></center>
 
@@ -34,43 +34,43 @@ Here's what it looks like
 
 I installed [NixOS](https://nixos.org) on my machine, and this is the first time I'm playing around with NixOS. To be honest, I really like the style of setup, with configuration being first-class and everything following from there.
 
-This brings me to the point of me thinking of comparing it with other setups which I've tried for my home setup:
+This brings me to the point of comparing it with other setups, which I've tried for my homelab:
 - Terraform
-- running Ansible on a server
+- running Ansible on the server
 - other configuration engines like Chef
 
-A couple of things which standout for
-- There's no LTS version, so nixos keeps doing rolling updates. So no major LTS version installations for fresh starts.
-- I can modularise my applications and configuration as it grows into different files. Very ansibly and other configuration language style.
+A couple of things which standout for nixos is
+- There's no LTS version, so nixos keeps doing rolling updates.
+- I can modularise my applications and configuration as it grows into different files. Very ansible-y.
 - Incremental changes with every configuration change, forcing you to rollout one change at a time.
 
 Claude is helping me quite a bit on the heavy lifting of the syntax as of now.
 
-The decision to pick up NixOS was also due to me wanting to try it out for a while now.
+The decision to pick up NixOS was also due to me wanting to try it out for a while.
 
 ## Getting Connected
 
-Now, connectivity to the home server was the next thing which I wanted to figure out. One thing I was sure of for now is that I didn't want to expose the home server to the internet to the internet. That opens a whole can of activities that you have to do to secure the server, and that was something which I didn't want to solve as of now. The first thing which I did after installing the bare minimum NixOS configuration was to set up [Tailscale](https://tailscale.com) on the machine and connect my personal laptop and the home server on the same network, getting ssh access solved.
+Now, connectivity to the home server was the next thing which I wanted to figure out. I didn't want to expose the home server to the internet, as that opens a whole can of worms. I didn't want to solve that as of now. The first thing which I did after installing the bare minimum NixOS configuration was to set up [Tailscale](https://tailscale.com) on the machine and connect my personal laptop and the home server on the same network, getting ssh access solved.
 
 Next was to clone the home server configuration repo which I had created and symlinking the directory to /etc/NixOS.
 
-As of now, my flow is to make changes to git on my local machine; then that gets pulled over onto the home server. This is not automatic right now and then I have to run nixos rebuild switch. Probably something to check further on how to automate.
+As of now, my flow is to make changes to git on my local machine; then that gets pulled over onto the home server. Updating the server with new configuration, is not automatic right now. I have to run nixos rebuild switch after doing a manual git pull. Probably something to check further on how to automate.
 
 So that took care of connectivity and configuration in general on the home server, and the next bit was, of course, what was I going to set up on my machine?
 
 ## What I'm Running
 
-I ended up setting a YNAB alternative called [Actual Budget](https://actualbudget.org). After that, for identity provider and handling user accounts and issuing OIDC tokens, I installed [Kanidm](https://kanidm.com) so that multiple members would have their own login ID inside my setup, which Actual Budget would be talking over to OIDC.
+I ended up setting a [YNAB](https://www.ynab.com/) alternative called [Actual Budget](https://actualbudget.org). I wanted to have multiple users without relying on an external Identity provider. I installed [Kanidm](https://kanidm.com), using which I create different users, who then can authenticate with actual budget.
 
-The reason why I ended up selecting my own oidc provider was because I just wanted to start using a self-hosted service for the oidc service on my home server and see how it works and just play around with it.
+The reason why I ended up selecting my own oidc provider was because I just wanted to start using a self-hosted service, see how it works and play around with it.
 
 Then I set up [Caddy](https://caddyserver.com) server for terminating HTTPS and reverse proxying to the containers which are running on the server along with tailscale providing the TLS certificates for the hostname itself.
 
-I am exposing these services on my Tailscale server on different ports via using virtual hosts. The certificate being provided by Tailscale.
+I am exposing these services on my Tailscale server on different ports, using virtual hosts.
 
-So my usual flow now to use actual budget, for example on my phone, connect to tailscale. Then I go to the tailscale-endpoint:port where actual budget is bound.
+So to use actual budget, for example on my phone, I connect to tailscale. Then I go to the tailscale-endpoint:port where actual budget is bound.
 
-That's a little bit about what kind of services I had set up and my reasoning behind choosing to set them up. Now I started the post by mentioning my setup for a pi hole, which I had done on a Raspberry Pi long back, which which was being used by all my devices which were connecting over Wi-Fi on my home router back then
+That's a little bit about what kind of services I had set up and my reasoning behind choosing to set them up. Now I started the post by mentioning my setup which I had done for pi hole, so am I running it now?
 
 ## On DNS and Pi-hole
 
@@ -108,3 +108,4 @@ Finally have my home server setup, which I can play around with. Certainly gives
 
 But at the end, everything is a trade-off, and you, being the owner of your own home server. You should make that call for what you want to work with in general. I hope this post inspires somebody to take the leap on the personal home server space.
 
+_Massive thanks to [goutham](https://gouthamve.dev) for reviewing the post_
