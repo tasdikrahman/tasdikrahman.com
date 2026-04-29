@@ -25,6 +25,8 @@ The machine already came with a Wi-Fi dongle attached to it, which made my job e
 
 Here's what it looks like 
 
+<center><img src="/content/images/2026/04/homeserver-april-2026.jpeg"></center>
+
 ## Why NixOS
 
 I have installed NixOS on my machine, and this is the first time I'm playing around with NixOS. To be honest, I really like the style of setup, with configuration being first-class and everything following from there.
