@@ -9,17 +9,21 @@ description: "A walkthrough of my home server setup — hardware, NixOS, service
 
 ## How It Started
 
-A bit back, around 2020, I started hosting a small [Pi-hole](https://pi-hole.net) setup for DNS-based ad filtering. That was one of the setups which I had running for a bit longer before that, around 2017, when I had a DigitalOcean server where I would be running my own k8s cluster. I was using this k8s distribution called [Typhoon](https://github.com/tasdikrahman/infra), but it didn't really end up installing applications which I was using on a daily level.
+Back in 2017, I was using this k8s distribution called [Typhoon](https://github.com/tasdikrahman/infra), hosted over at DigitalOcean. Was only for experimenting around, nothing installed on it which I was using
+on a regular basis.
 
-A couple of my friends have their own home servers, and they were chatting about it for a bit. This was also an idea in the back of my head for some time, not to host something very serious, which would be mission critical for me to run, but in general just some small applications which I would try migrating off from which I use on a regular basis, and also something which I would want more control over.
+Around 2020, I started hosting a small [Pi-hole](https://pi-hole.net) setup for DNS-based ad filtering, installed over my raspberyy pi. But this was also short lived and I turned it off after a year.
+
+I wanted to get back to my homeserver setup a bit more seriously, and this is me iterating over the last two setups. The idea for me is to start hosting some applications which I use
+on a regular basis on my homelab. But also at the same time being pragmatic, on what to self host and what to not.
 
 ## Finding the Right Box
 
-And that's where it began for my home server setup, the beginnings, I must say, as it's just a single box. I started looking with different machines on eBay, Kleinanzeigen. After a few days of searching on and off, I did come across this one machine from Lenovo called The Think Center. It was selling for pretty cheap, so I ended up buying it from the last owner.
+I started looking with different machines on eBay, Kleinanzeigen. After a few days of searching on and off, I did come across this one machine from Lenovo called The Think Center. It was selling for pretty cheap, so I ended up buying it from the last owner.
 
 The model is a Lenovo ThinkCentre M75Q Generation 2 and comes with 8 GB of RAM and around 256 GB of space. It might seem less, but I just want to start with something rather than overthink too much about what configuration I would have wanted. Given that this ThinkCentre is configurable, I wasn't really concerned about extensibility.
 
-From what I checked around, I can go maximum till 64 GB with 2 into 32 GB card slots. And for storage, I could have one on the primary slot and one attached to the secondary slot. From checking further, I could practically go all the way till 6 TB of NVMe storage on this machine. If required, I would always be able to attach an external drive through the USB. But again, something to figure out as I grow usage
+From what I checked around, I can go maximum till 64 GB with 2 into 32 GB card slots. And for storage, I could have one on the primary slot and one attached to the secondary slot. From checking further, I could practically go all the way till 6 TB of NVMe storage on this machine. If required, I would always be able to attach an external drive through the USB. But again, something to figure out as I grow usage.
 
 The machine already came with a Wi-Fi dongle attached to it, which made my job easier, not having to wire it up on Ethernet on my home router, as the router sits in another room. I did look for repeaters, but it seemed a bit unnecessary at the current moment of setup until I really faced some issues with speed.
 
