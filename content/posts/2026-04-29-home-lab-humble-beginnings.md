@@ -9,23 +9,22 @@ description: "A walkthrough of my home server setup — hardware, NixOS, service
 
 ## How It Started
 
-Back in 2017, I was using this k8s distribution called [Typhoon](https://github.com/tasdikrahman/infra), hosted over at DigitalOcean. Was only for experimenting around, nothing installed on it which I was using
-on a regular basis.
+Back in 2017, I was using this k8s distribution called [Typhoon](https://github.com/tasdikrahman/infra), hosted over at DigitalOcean. This was only for experimentation and I never really ended up hosting anything there.
 
-Around 2020, I started hosting a small [Pi-hole](https://pi-hole.net) setup for DNS-based ad filtering, installed over my raspberyy pi. But this was also short lived and I turned it off after a year.
+Around 2020, I started hosting a small [Pi-hole](https://pi-hole.net) setup for DNS-based ad filtering, installed on my raspbery pi. But this was also short lived and I turned it off after a year.
 
-I wanted to get back to my homeserver setup a bit more seriously, and this is me iterating over the last two setups. The idea for me is to start hosting some applications which I use
-on a regular basis on my homelab. But also at the same time being pragmatic, on what to self host and what to not.
+Learning from my last two setups, I wanted to start fresh and build something which is easy to maintain. I also want to start hosting some applications which I use
+on a regular basis. I am trying to be pragmatic, on what to self host and what to not.
 
 ## Finding the Right Box
 
-I started looking with different machines on eBay, Kleinanzeigen. After a few days of searching on and off, I did come across this one machine from Lenovo called The Think Center. It was selling for pretty cheap, so I ended up buying it from the last owner.
+I started looking for different machines on eBay, Kleinanzeigen. After a few days of searching on and off, I came across this machine from Lenovo called The Think Center. It was selling for pretty cheap, so I ended up buying it.
 
-The model is a Lenovo ThinkCentre M75Q Generation 2 and comes with 8 GB of RAM and around 256 GB of space. It might seem less, but I just want to start with something rather than overthink too much about what configuration I would have wanted. Given that this ThinkCentre is configurable, I wasn't really concerned about extensibility.
+The model is a Lenovo ThinkCentre M75Q Generation 2 and comes with 8 GB of RAM and around 256 GB of space. It might seem less, but I just want to start with something rather than overthink too much about what configuration I would have wanted.
 
-From what I checked around, I can go maximum till 64 GB with 2 into 32 GB card slots. And for storage, I could have one on the primary slot and one attached to the secondary slot. From checking further, I could practically go all the way till 6 TB of NVMe storage on this machine. If required, I would always be able to attach an external drive through the USB. But again, something to figure out as I grow usage.
+I can go maximum till 64 GB with 2 into 32 GB card slots. And for storage, I could have one on the primary slot and one attached to the secondary slot. I could practically go all the way till 6 TB of NVMe storage on this machine. If required, I would always be able to attach an external drive through the USB. But again, something to figure out as I grow usage.
 
-The machine already came with a Wi-Fi dongle attached to it, which made my job easier, not having to wire it up on Ethernet on my home router, as the router sits in another room. I did look for repeaters, but it seemed a bit unnecessary at the current moment of setup until I really faced some issues with speed.
+Luckily, the machine came with a Wi-Fi dongle attached, so I didn't have to attach an ethernet cable, from a router sitting in a different room. I will look further into it, if there are upload/download issues later.
 
 Here's what it looks like
 
@@ -33,7 +32,7 @@ Here's what it looks like
 
 ## Why NixOS
 
-I have installed [NixOS](https://nixos.org) on my machine, and this is the first time I'm playing around with NixOS. To be honest, I really like the style of setup, with configuration being first-class and everything following from there.
+I installed [NixOS](https://nixos.org) on my machine, and this is the first time I'm playing around with NixOS. To be honest, I really like the style of setup, with configuration being first-class and everything following from there.
 
 This brings me to the point of me thinking of comparing it with other setups which I've tried for my home setup:
 - Terraform
