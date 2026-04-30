@@ -4,6 +4,8 @@ description: "Install Hadoop Single node 1.0.3 on Ubuntu 14.04.2"
 tags: [hadoop, bigdata, ubuntu]
 comments: true
 share: true
+showToc: true
+TocOpen: true
 ---
  
 

@@ -5,6 +5,8 @@ tags: ["engineering-productivity"]
 comments: true
 share: true
 cover_image: '/content/images/2022/02/Webervogelnst_Auoblodge.jpg'
+showToc: true
+TocOpen: true
 ---
 
 ## Context

@@ -5,6 +5,8 @@ tags: [kubernetes, aws, gcp, azure]
 comments: true
 share: true
 cover_image: '/content/images/2019/04/k8s-image.png'
+showToc: true
+TocOpen: true
 ---
 
 [kubernetes](https://kubernetes.io/) has been around for some time now. At the time of writing this article, [v1.14.0](https://github.com/kubernetes/kubernetes/releases/tag/v1.14.0) is the latest release and with each new release, they have a bunch of new features.

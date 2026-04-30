@@ -5,6 +5,8 @@ tags: [softwaredevelopment]
 comments: true
 share: true
 cover_image: '/content/images/2020/12/review-image.png'
+showToc: true
+TocOpen: true
 ---
 
 As with time this doc will change, but jotting my thoughts down here on what I feel I would like to avoid while I review PR's.

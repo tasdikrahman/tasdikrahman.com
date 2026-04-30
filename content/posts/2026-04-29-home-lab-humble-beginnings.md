@@ -5,6 +5,8 @@ draft: false
 tags: ["homelab", "nixos", "self-hosting", "tailscale", "caddy"]
 categories: ["infrastructure"]
 description: "A walkthrough of my home server setup — hardware, NixOS, services like Actual Budget and Kanidm, and the trade-offs I made along the way."
+showToc: true
+TocOpen: true
 ---
 
 ## How It Started

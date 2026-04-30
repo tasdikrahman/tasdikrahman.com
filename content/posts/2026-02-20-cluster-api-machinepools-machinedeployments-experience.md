@@ -4,6 +4,8 @@ description: "From Terraform to Cluster API: managing Kubernetes infrastructure 
 tags: [cluster-api, kubernetes, terraform, aws, azure, gcp, infrastructure]
 comments: true
 draft: false
+showToc: true
+TocOpen: true
 ---
 
 I have been managing infrastructure in organisations of different shapes and sizes since early 2017. Right from early startups, to pre-IPO organisations to large scale enterprises. The toolset has really evolved over time, and different solutions have been developed by organisations along the way. Starting out, I saw a number of places calling cloud provider APIs directly and building CLI tooling on top of them.

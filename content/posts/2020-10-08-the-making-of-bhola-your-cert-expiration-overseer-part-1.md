@@ -5,6 +5,8 @@ tags: [ruby, rubyonrails]
 comments: true
 share: true
 cover_image: '/content/images/2020/10/bhola.png'
+showToc: true
+TocOpen: true
 ---
 
 You might have already seen me writing a bit about bhola already on [twitter](https://twitter.com/tasdikrahman), I wrote a little bit about why I have been building [bhola](https://github.com/tasdikrahman/bhola). This post is more of a continuation to this tweet and what I envision it to be moving forward.

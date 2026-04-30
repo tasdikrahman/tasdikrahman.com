@@ -5,6 +5,8 @@ tags: [oss, gsoc, ansible]
 comments: true
 share: true
 cover_image: '/content/images/2017/05/OVirt-logo-highres.png'
+showToc: true
+TocOpen: true
 ---
 
 Was trying to install oVirt engine on a VM deployed on DigitalOcean. My learnings from it are documented here.

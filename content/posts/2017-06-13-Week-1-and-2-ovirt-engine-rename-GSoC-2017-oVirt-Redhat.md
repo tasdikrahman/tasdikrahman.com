@@ -5,6 +5,8 @@ tags: [oss, python, ansible, gsoc]
 comments: true
 share: true
 cover_image: '/content/images/2017/05/gsoc-cover.png'
+showToc: true
+TocOpen: true
 ---
 
 So it's quite some time since I wrote a thing or two about the things which I have doing over the last 2 weeks. 

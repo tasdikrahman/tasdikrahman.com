@@ -5,6 +5,8 @@ tags: [security, x509, devops, ruby, rubyonrails, letsencrypt, oss, ssl]
 comments: true
 share: true
 cover_image: '/content/images/2020/04/kingsly_header.jpeg'
+showToc: true
+TocOpen: true
 ---
 
 > This was originally published under [Gojek's engineering blog](https://blog.gojekengineering.com/introducing-kingsly-the-cert-manager-ced40746aa65) by me, this post is a repost.

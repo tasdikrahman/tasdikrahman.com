@@ -5,6 +5,8 @@ tags: [softwaredevelopment, deployments]
 comments: true
 share: true
 cover_image: '/content/images/2021/06/vesemir-revamp.jpg'
+showToc: true
+TocOpen: true
 ---
 
 This is a continuation of the [post](https://www.tasdikrahman.com/2021/06/10/vesemir-our-virtual-machine-deployment-service/), which details into the working of vesemir and how it goes about introducing changeset. Give it a read before continuing reading this, to allow you to gather more context on the what and the why.

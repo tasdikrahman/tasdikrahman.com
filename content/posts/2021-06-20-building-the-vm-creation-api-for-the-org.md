@@ -5,6 +5,8 @@ tags: ["softwaredevelopment"]
 comments: true
 share: true
 cover_image: '/content/images/2021/06/24BDDA89-7EF4-4E21-B244-919D364A386D.jpeg'
+showToc: true
+TocOpen: true
 ---
 
 Over the years, there have been a lot of changes in the way, people create their virtual machines in their cloud environment. 
