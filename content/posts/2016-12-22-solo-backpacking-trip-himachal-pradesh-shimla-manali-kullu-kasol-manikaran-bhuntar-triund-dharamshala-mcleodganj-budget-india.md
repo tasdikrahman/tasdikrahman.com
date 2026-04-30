@@ -5,6 +5,8 @@ tags: [travel, backpacking]
 comments: true
 share: true
 cover_image: '/content/images/2016/12/triund5.jpg'
+showToc: true
+TocOpen: true
 ---
 
 ## Trip itinerary

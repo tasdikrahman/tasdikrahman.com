@@ -5,6 +5,8 @@ draft: false
 tags: ["kubernetes", "kubecon", "devops", "cloud-native", "opentelemetry", "prometheus"]
 categories: ["conferences"]
 description: "Notes from KubeCon EU 2026 in Amsterdam, covering talks on cluster migrations, CAPI, OpenTelemetry, Prometheus 3.0, and more."
+showToc: true
+TocOpen: true
 ---
 
 A few weeks ago, I attended KubeCon EU in Amsterdam in person. This was my third KubeCon EU in succession from the last few years, the first one being, KubeCon Paris, then KubeCon London.

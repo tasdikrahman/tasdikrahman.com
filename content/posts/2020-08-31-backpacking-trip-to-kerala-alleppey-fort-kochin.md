@@ -5,6 +5,8 @@ tags: [backpacking, travel]
 comments: true
 share: true
 cover_image: '/content/images/2020/07/kerala-blog-26.jpg'
+showToc: true
+TocOpen: true
 ---
 
 > I did this trip last year, in August 2019. Finishing this was long overdue.
@@ -217,7 +219,7 @@ We hadn't eaten anything, which made us look for a decent place to fill our tumm
 
 <center><img src="/content/images/2020/07/kerala-blog-27.jpg"></center>
 
-### Kochi
+## Kochi
 
 The next leg in this trip was our visit to kochi, train tickets were pretty cheap, we got it for about less than 50INR each. The train itself was a passenger one, which meant it was a bit slower and halted at quite a few places, but that also gave us a chance to admire the countryside. The lush green meadows, the swamps and the local livestock grazing onto grass.
 
@@ -226,6 +228,8 @@ We reached in about an hour or two after we started to Ernakulam, from there we 
 The ride back to fort kochi was rougly around more than 10kms, which took us about another half an hour to reach. We saddled down our bags in a corner.
 
 <center><img src="/content/images/2020/07/kerala-blog-28.jpg"></center>
+
+### Fort Kochi
 
 As luck would have it, our hostel where we were going to stay was hardly a few meters away from the bus stop which we got down off. And you might have guessed it right, it was a zostel again! We had to dump our backs in the common area, as the host was out for lunch, we quickly freshened up in one of the spare washrooms around the common area and off we went in search of some food.
 

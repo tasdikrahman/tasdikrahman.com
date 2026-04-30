@@ -5,6 +5,8 @@ tags: [infosec, linux]
 comments: true
 share: true
 cover_image: '/content/images/2017/05/web-server-security.jpg'
+showToc: true
+TocOpen: true
 ---
 
 > DISCLAIMER: All views presented are personal and not that of my employers or anyone else for that matter. In no occasion do I blame Linode for this security breach. It was because I did not follow the best practices which you will read and not repeat again.

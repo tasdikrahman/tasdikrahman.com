@@ -5,6 +5,8 @@ tags: [istio, devops, kubernetes]
 comments: true
 share: true
 cover_image: '/content/images/2020/06/istio-gojek.jpeg'
+showToc: true
+TocOpen: true
 ---
 
 > This was originally published under [Gojek's engineering blog](https://blog.gojekengineering.com/our-learnings-from-istios-networking-apis-while-running-it-in-production-74704979107d) by me, this post is a repost. 

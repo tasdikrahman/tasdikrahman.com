@@ -5,6 +5,8 @@ tags: [oss, python, ansible, gsoc]
 comments: true
 share: true
 cover_image: '/content/images/2017/05/gsoc-cover.png'
+showToc: true
+TocOpen: true
 ---
 
 It has been a week since the Phase 2 results are out. And we proceed to the last and final Phase of the GSoC. I couldn’t blog regularly in the last phase due to many reasons, which I want to change this Phase.

@@ -5,6 +5,8 @@ tags: [kubernetes, karpenter, autoscaling, cost-optimisation]
 comments: true
 share: true
 cover_image: ''
+showToc: true
+TocOpen: true
 ---
 
 **Note:** [Claude Code](https://claude.ai/code) was used to help format the post structure, prose, and create the Mermaid diagrams in this post.

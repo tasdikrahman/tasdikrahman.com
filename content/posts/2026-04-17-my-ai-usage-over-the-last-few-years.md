@@ -5,6 +5,8 @@ tags: [ai, llm, claude-code, productivity]
 comments: true
 share: true
 cover_image: ''
+showToc: true
+TocOpen: true
 ---
 
 This post is going to be mostly a reference check for myself on how my AI usage has evolved over the last few months and even last year. The tools are moving at quite a pace, and I just wanted to write this down to have a reference for myself on how my usage has evolved over time with AI tools. 

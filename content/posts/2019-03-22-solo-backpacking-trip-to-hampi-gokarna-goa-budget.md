@@ -5,11 +5,15 @@ tags: [travel, backpacking]
 comments: true
 share: true
 cover_image: '/content/images/2019/03/gokarna-cover.jpg'
+showToc: true
+TocOpen: true
 ---
 
 It was a cold Friday night, had just come back home after wrapping up the farewell party which was thrown by my colleagues from my last company. I was feeling worn out of all the activities from the day, but I kept reminding myself that I had to start packing for the impromptu solo backpacking trip which I had planned before I joined my next gig in the coming 10 days.
 
 <center><img src="/content/images/2019/03/packing.jpg"></center>
+
+## Day 1 - Hampi
 
 ### Where was I planning to go?
 
@@ -145,7 +149,7 @@ The next thing on the list was to get on the circular boats which I saw when I h
 
 Later that night, I was lazing around the same local tea shop where I used to hang around. I ended up eating at the same place. Took a bus back to Hospet after which I had to get on a bus from Hospet on to my next destination.
 
-### Another uncomfortable bus ride
+## Another uncomfortable bus ride - Gokarna
 
 The bus ride to [Gokarna](https://en.wikipedia.org/wiki/Gokarna,_Karnataka) was not exactly the best ride, but it was pretty cheap. I was travelling in the state bus again, no surprises here that I couldn’t get any sleep again.
 
@@ -154,6 +158,8 @@ I met Yang, yet again while on my way to Gokarna. And we had a chat again about 
 <center><img src="/content/images/2019/03/yang-day2.jpg"></center>
 
 The trip to Gokarna from Hampi is an overnight one and when I woke up to the morning, I was pleasantly surprised by the gentle breeze on my face flowing in through the tiny crevice of the window which slid open as the bus crawled through the bridge.
+
+## Day 3 - Gokarna
 
 I got down at the Gokarna city bus stand and decided to walk all the way up to the hostel which I had booked for the stay for one night. It was a kilometre of a hike before I could reach my hostel.
 
@@ -223,7 +229,7 @@ The day ended with all of us crashing in our bunk beds, for me it was also the l
 
 Morning came in quick and I had to rush to the local bus stop, to grab a bus to Gokarna beach railway station. And I thought I just cut it in time for the local train station where I was to board the train to my next stop.
 
-### Next stop the historic city of Margao, Goa
+## Next stop the historic city of Margao, Goa
 
 The train journey was joined by Michael, whom I had met back in the hostel where I was staying over. The train ride there was a meagre 30 INR and it would take roughly 3 hours to reach the destination.
 
@@ -232,6 +238,8 @@ The train journey was joined by Michael, whom I had met back in the hostel where
 After reaching Panjim, which was the last stop of the train. I and Michael parted ways as he was headed further north of Candolim, which was where I was going.
 
 Local transport is a little bit hard to find in Goa is what I noticed, most tourists either rent a car or a scooter and you can do the whole city in that. But many are left with the option of going around with the other options.
+
+## Day 4 - Goa
 
 I reached my hostel and freshened up a bit before heading straight to the beach right behind my hostel, it was a meagre 5-minute walk back to the beach and I was greeted by quite an old restaurant called Mama Cecilia’s shack. Ordered some shrimps and just sat down on the beachside chairs to relax and watch the sunset while dogs were running around in the water, playing with their owners and people jogging.
 
@@ -250,6 +258,8 @@ Candolim itself is a small (but populated) village and it can be covered by a br
 I crashed around in my bunk bed as I settled in for the night after lazing around and having conversations with the folks in the common area of the hostel, where I met a guy from China who had been living in India for some months now.
 
 He mentioned that he used to work for a startup back in China and described how he had no work-life balance when he was there and got burned out. He planned to stay a few more months, travelling to Varanasi and Rajasthan before heading back.
+
+## Day 5 - Goa
 
 The next morning was quite pleasant, woke up and had some breakfast and Mama Cecilia's. The shrimps are to die for! I headed to [Basilica de Bom Jesus](https://en.wikipedia.org/wiki/Basilica_of_Bom_Jesus)
 

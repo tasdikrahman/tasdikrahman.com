@@ -5,6 +5,8 @@ tags: [oss, python, ansible, gsoc]
 comments: true
 share: true
 cover_image: '/content/images/2017/05/gsoc-cover.png'
+showToc: true
+TocOpen: true
 ---
 
 At last I have got a hold of IRC's and I declare my love for [irssi](https://irssi.org/). The combination of [tmux](https://tmux.github.io/) and irssi is a boon for me. I tried different clients like [weechat](http://www.weechat.org/),[Epic](http://www.epicsol.org//) but I found irssi to be more appealing, quite frankly use any of these two if you are looking for something using which you can chat on irc's on the terminal. 
