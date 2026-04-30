@@ -5,6 +5,8 @@ tags: [kubernetes]
 comments: true
 share: true
 cover_image: ''
+showToc: true
+TocOpen: true
 ---
 
 This post is more of a continuation of the talk I gave over at [kubernetes bangalore k8s september 2022 meetup](https://www.meetup.com/kubernetes-openshift-india-meetup/events/288277755/).

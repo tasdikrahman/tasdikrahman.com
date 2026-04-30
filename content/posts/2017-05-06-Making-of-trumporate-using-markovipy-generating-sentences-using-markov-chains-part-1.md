@@ -5,6 +5,8 @@ tags: [python, markovchains, probability]
 comments: true
 share: true
 cover_image: '/content/images/2017/05/calkov-7127446174257307648.jpg'
+showToc: true
+TocOpen: true
 ---
 
 ## Do you even read comics?

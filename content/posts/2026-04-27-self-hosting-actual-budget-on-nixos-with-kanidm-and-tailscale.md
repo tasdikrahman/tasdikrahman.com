@@ -6,6 +6,8 @@ comments: true
 share: true
 cover_image: ''
 draft: true
+showToc: true
+TocOpen: true
 ---
 
 This is a walkthrough of how I set up [Actual Budget](https://actualbudget.org/) on my NixOS

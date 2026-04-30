@@ -5,6 +5,8 @@ tags: [rubyonrails, golang, databases]
 comments: true
 share: true
 cover_image: '/content/images/2020/10/migration.jpg'
+showToc: true
+TocOpen: true
 ---
 
 This blog post is a continuation of these two threads.

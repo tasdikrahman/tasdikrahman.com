@@ -5,6 +5,8 @@ tags: [ruby, rubyonrails, logging]
 comments: true
 share: true
 cover_image: '/content/images/2020/07/rails_logging.jpeg'
+showToc: true
+TocOpen: true
 ---
 
 > This post was originally published in [Gojeks engineering blog, here](https://blog.gojekengineering.com/structured-logging-in-rails-75e9a8c5370b), this post is a cross post of the same

@@ -5,6 +5,8 @@ tags: [softwaredevelopment, deployments]
 comments: true
 share: true
 cover_image: '/content/images/2021/06/pyramids.jpg'
+showToc: true
+TocOpen: true
 ---
 
 This post is a continuation of the tweet here

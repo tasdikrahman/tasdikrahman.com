@@ -5,6 +5,8 @@ tags: [devops]
 comments: true
 share: true
 cover_image: '/content/images/2021/02/vm-inventory-trendline.jpg'
+showToc: true
+TocOpen: true
 ---
 
 This post is a continuation of this [tweet thread](https://twitter.com/tasdikrahman/status/1355129674192490498?s=20)

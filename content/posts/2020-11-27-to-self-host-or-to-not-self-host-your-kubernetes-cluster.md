@@ -5,6 +5,8 @@ tags: [kubernetes]
 comments: true
 share: true
 cover_image: '/content/images/2019/04/k8s-image.png'
+showToc: true
+TocOpen: true
 ---
 
 A friend of mine asked this to me recently, about how was it to [self host](https://en.wikipedia.org/wiki/Self-hosting) [kubernetes](https://kubernetes.io) clusters. And I was cursing myself about why I did not write this post earlier (I mean, technically I have written about how we used to do self hosting [before](https://www.tasdikrahman.com/2019/04/04/self-hosting-highly-available-kubernetes-cluster-aws-google-cloud-azure/), but not the pros and cons of it), as this was not the first time I had been asked this question. So this post is dedicated to my friend and to others when they chance upon this question.

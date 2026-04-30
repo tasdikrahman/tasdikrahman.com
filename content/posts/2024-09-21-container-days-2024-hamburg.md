@@ -5,6 +5,8 @@ tags: [conferences]
 comments: true
 share: true
 cover_image: ''
+showToc: true
+TocOpen: true
 ---
 
 This was my first time at containerdays, Hamburg and I feel I missed out definitely on the previous ones by not attending!

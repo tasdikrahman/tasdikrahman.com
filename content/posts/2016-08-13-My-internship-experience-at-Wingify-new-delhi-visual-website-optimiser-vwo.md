@@ -5,6 +5,8 @@ tags: [internships]
 comments: true
 share: true
 cover_image: '/content/images/2016/08/Wingify_acquisition_main.jpg'
+showToc: true
+TocOpen: true
 ---
 
 As I am sitting here at the Delhi Airport waiting for my flight back to Chennai, I could just not stop myself from thinking about my time as an intern back at Wingify which ended last week. Here’s what I wrote down after getting carried way with several cups of coffee (thanks for luring me with that smell costa coffee)

@@ -4,6 +4,8 @@ description: "Oracle 11g install"
 tags: [sql, oracle11g]
 comments: true
 share: true
+showToc: true
+TocOpen: true
 ---
 
 ## Intro : 

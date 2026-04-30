@@ -5,6 +5,8 @@ tags: [kubernetes, golang]
 comments: true
 share: true
 cover_image: ''
+showToc: true
+TocOpen: true
 ---
 
 This post mostly is for documentary purposes for myself, about a few things which I ended up noticing while using [client-go](https://github.com/kubernetes/client-go) as I used it for [deliveryhero/k8s-cluster-upgrade-tool](https://github.com/deliveryhero/k8s-cluster-upgrade-tool), which used the out-cluster client configuration, a couple of things are specific to that setup, like client init, but other things like testing interactions via client-go are more generic.

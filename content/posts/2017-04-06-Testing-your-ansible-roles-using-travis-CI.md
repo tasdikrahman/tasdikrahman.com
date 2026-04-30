@@ -5,6 +5,8 @@ tags: [python, devops, ansible]
 comments: true
 share: true
 cover_image: '/content/images/2017/04/ansible_plus_travis.png'
+showToc: true
+TocOpen: true
 ---
 
 **NOTE**: __The ansible playbook written here can be found at [tasdikrahman/ansible-bootstrap-server](https://github.com/tasdikrahman/ansible-bootstrap-server)__

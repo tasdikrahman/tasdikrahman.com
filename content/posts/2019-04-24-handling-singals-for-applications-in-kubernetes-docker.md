@@ -5,6 +5,8 @@ tags: [kubernetes, docker, devops]
 comments: true
 share: true
 cover_image: '/content/images/2019/04/docker-k8s.jpg'
+showToc: true
+TocOpen: true
 ---
 
 When the power goes off in a device in a linux based system, one can think of ways in which this event can be handled in the applications running on it. One thing to note is that, when you plug the power cable off, the power doesn't really go off immediately.

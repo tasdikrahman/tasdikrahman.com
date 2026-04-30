@@ -5,6 +5,8 @@ tags: [dbpedia, ubuntu, unix, nlp]
 comments: true
 share: true
 cover_image: '/content/images/2014/11/materialdesign-goals-swirlanddot_large_xhdpi.jpeg'
+showToc: true
+TocOpen: true
 ---
 
 ## Intro : 

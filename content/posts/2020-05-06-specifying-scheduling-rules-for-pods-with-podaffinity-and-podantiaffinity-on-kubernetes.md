@@ -5,6 +5,8 @@ tags: [kubernetes, devops]
 comments: true
 share: true
 cover_image: '/content/images/2019/04/k8s-image.png'
+showToc: true
+TocOpen: true
 ---
 
 This is more of an extended version of the tweet here 

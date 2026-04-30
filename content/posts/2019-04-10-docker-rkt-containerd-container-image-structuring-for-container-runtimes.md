@@ -5,6 +5,8 @@ tags: [docker, containers]
 comments: true
 share: true
 cover_image: '/content/images/2019/04/docker.png'
+showToc: true
+TocOpen: true
 ---
 
 While you might have read posts about [docker](https://news.ycombinator.com/item?id=16036268) being dead, but given its adoption. That's not [really the case](https://sysdig.com/blog/2018-docker-usage-report/).
